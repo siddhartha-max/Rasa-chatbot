@@ -8,6 +8,59 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - About_CKY
+  - About_refund_policy
+  - About_linux
+  - About_PHP
+  - Transfer_courses
+  - About_Hindi_medium
+  - Ask_web_development
+  - Ask_AI
+  - Ask_grade_1_to_5
+  - Ask_grade_8_to_10
+  - Ask_grade_10+
+  - Ask_discounts
+  - Ask_doubt_class
+  - Progress_report
+  - About_mentor
+  - Ask_bot_parent_interaction
+  - Ask_courses
+  - Ask_abstract_question
+  - Ask_python
+  - Ask_age_group
+  - Ask_programming_language
+  - Ask_benefit_coding
+  - Ask_mode_teaching
+  - Ask_fee_structure
+  - Ask_class_time
+  - Scope_coding
+  - Admission_criteria
+  - Feedback_children
+  - Ask_classes
+  - Ask_payment
+  - Ask_error
+  - Ask_financial_assistance
+  - Ask_scratch
+  - Ask_Java
+  - Ask_html
+  - Ask_summer_camp
+  - Ask_Exam_evaluation
+  - Ask_study_material
+  - Ask_certification
+  - Ask_alternative_class
+  - Ask_duration
+  - Ask_demo_class
+  - Ask_extra-cocurricular
+  - Ask_guide_helpline
+  - Ask block_based_coding
+  - Ask_comapare_companies
+  - Ask_admission_procedure
+  - Ask_gameapp_development
+  - Ask_app_development
+  - Ask_core_values
+  - Ask_salary
+  - Experience_teacher
+
 
 responses:
   utter_greet:
