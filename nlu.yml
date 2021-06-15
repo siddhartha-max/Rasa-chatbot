@@ -90,3 +90,64 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    
+- intent: Scope_coding
+  examples: |
+     - what is the scope of coding ?
+     - what is the future in coding ?
+     - is coding beneficial ?
+     - is my future bright in coding?
+     - 
+     
+- intent: Admission_criteria
+  example: |
+  - what is the admission criteria ?
+  - how to take admission in cky?
+  - what all procedure I need to follow in order to take admission in cky?
+  - is there any particular criteria for taking admission?
+  - 
+  - 
+- intent: Feedback_children
+example:  |
+- Do you have any feedback of past students?
+- what are the feedback of other students ?
+- what all learning the students have from these courses?
+- can you share some feedback ?
+- what are some valuable feedback?
+- how many people filled the feedback?
+- is there any bad feedback?
+- is there any good feedback?
+- how many student like to give feedback?
+- what all points were shared in the feedback?
+
+- intent : Ask_classes
+  example:  |
+  - what are the timing of classes?
+  - what is the duration of classes?
+  - is there any class on week ends?
+  - can I change the timing of my class?
+  - which time is best to have a class?
+  - how many students will be there in each class?
+  - do I get individual mentor for each class?
+  - is class hours can be reduced?
+  - can I reduce the class hours?
+  - can i increase the class hours?
+
+- intents : Ask_payment
+  example :
+  - what is the mode of payment?
+  - can i use net banking for payment?
+  - can i pay the fees by cash?
+  - what are the different modes of payments?
+  - can i pay the monthly payment?
+  - can i pay the weekly payment?
+  - can i pay the annually payment?
+  - can i use online payment?
+  - which mode of payment is best ?
+  - is payment necessary?
+  - 
+  
+    
+  - 
+
+  
