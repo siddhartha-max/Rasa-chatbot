@@ -52,7 +52,7 @@ intents:
   - Ask_demo_class
   - Ask_extra-cocurricular
   - Ask_guide_helpline
-  - Ask block_based_coding
+  - Ask_block_based_coding
   - Ask_comapare_companies
   - Ask_admission_procedure
   - Ask_gameapp_development
@@ -60,6 +60,14 @@ intents:
   - Ask_core_values
   - Ask_salary
   - Experience_teacher
+  - About_my_account
+  - Referral_program
+  - Upgrade_course
+  - Ask_nlp
+  - Ask_workshop
+  - Ask_tie_ups
+  - About_collaboration
+  - About_career
 
 
 responses:
