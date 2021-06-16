@@ -148,7 +148,12 @@ example:  |
   - which mode of payment is best ?
   - is payment necessary?
   - 
-  
+  - intents : About_my_account
+    example :
+    - how do i edit student information?
+    - how do i change parent contact details?
+    - how do i check my performance/report?
+    - how do i create multiple users/profiles within one account?
     
   - 
 
