@@ -154,7 +154,18 @@ example:  |
     - how do i change parent contact details?
     - how do i check my performance/report?
     - how do i create multiple users/profiles within one account?
-    
-  - 
+    -
+   - intents : Upgrade_course
+     example :
+     - i want to transfer my kid from game development to artificial intelligence. Is this possible?
+     - i want to transfer my kid from Java programming to html. Is this possible ?
+     - i want to add Web development course to my pack. Is this possible ?
+     - i want to transfer my kid from python programming to scratch. Is this possible ?
+     - i want to add programming language Java to my pack. How is this possible ?
+     - i want to upgrade my starter pack to intermediate pack. Is this possible ?
+     - i want to upgrade my intermediate pack to professional pack. Is this possible ?
+     - i want to enroll for starter pack from intermediate pack. Is this possible ?
+     - i want to enroll for intermediate pack from professional pack. Is this possible ?
+     - i want to add Java and python programming languages to my pack. Is this possible ?
 
   
