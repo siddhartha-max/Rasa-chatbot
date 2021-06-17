@@ -98,13 +98,12 @@ version: "2.0"
      - 
      
 - intent: Admission_criteria
-  example: |
+  examples: |
   - what is the admission criteria ?
   - how to take admission in cky?
   - what all procedure I need to follow in order to take admission in cky?
-  - is there any particular criteria for taking admission?
-  - 
-  - 
+  - Is there any particular criteria for taking admission?
+  
 - intent: Feedback_children
 example:  |
 - Do you have any feedback of past students?
@@ -132,7 +131,7 @@ example:  |
   - can i increase the class hours?
 
 - intents : Ask_payment
-  example :
+  example :  |
   - what is the mode of payment?
   - can i use net banking for payment?
   - can i pay the fees by cash?
@@ -145,7 +144,7 @@ example:  |
   - is payment necessary?
   - 
   - intents : Ask_salary
-    example :
+    example :   |
     - how much does a python based full stack web developer earn ?
     - how much does a python based machine learning engineer earns?
     - how much does a python based artificial Intelligence earns ?
@@ -158,14 +157,14 @@ example:  |
     - how much does mobile app developer make ?
     -
   - intents : About_my_account
-    example :
+    example :  |
     - how do i edit student information?
     - how do i change parent contact details?
     - how do i check my performance/report?
     - how do i create multiple users/profiles within one account?
     -
    - intent : Upgrade_course
-     examples :
+     examples :  |
      - i want to transfer my kid from game development to artificial intelligence. Is this possible?
      - i want to transfer my kid from Java programming to html. Is this possible ?
      - i want to add Web development course to my pack. Is this possible ?
@@ -178,7 +177,7 @@ example:  |
      - i want to add Java and python programming languages to my pack. Is this possible ?
     
    - intent : Ask_nlp
-     examples:
+     examples:  |
      - Is there a course available on NLP ? 
      - what is nlp?
      - full form of nlp?
@@ -193,10 +192,26 @@ example:  |
      - What is Latent Semantic Indexing?
      
     - intent : Ask_workshop
-      examples:
+      examples:  |
       - what about workshop?
-      - DO you conduct workshop?
-      - 
+      - Do you conduct workshop?
+      - Workshop
+      - Are workshop useful?
+      - What happen in whorkshop?
+      - what is workshop?
+      - Do we have to pay for the workshop?
+      
+    - intent: Ask_tie_ups
+      examples:  |
+      - Any tie-ups?
+      - With how many companies do you have tie ups?
+      - Had tie-up benefitted Codekaro yaro?
+      - tie-ups?
+    - intent : collaboration
+      examples: |
+      - Do you have any collaboration with schools?
+      - Did any school used your courses to teach their students?
+ 
 
    - intents: Ask_age_group
      example :
