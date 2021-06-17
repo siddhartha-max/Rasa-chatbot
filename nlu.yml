@@ -185,4 +185,76 @@ example:  |
       - DO you conduct workshop?
       - 
 
+   - intents: Ask_age_group
+     example :
+      - Which coding language is suitable for 8-10 years old child?
+      - Is it possible to understand my 8-10 year old kid coding?
+      - Coding is hard or easy for an 8-10 year old kid?
+      - How much time does an 8-10 year old kind learn coding?
+      - Can teachers handle 8-10 year old kids?
+      - Do you conduct any test before enrolling into the course for 8-10 year old kids?
+      - Do you  recommend any books for an 8-10 year old kid coding ?
+      - Do you Provide meditation classes for 8-10 year old students with coding?
+      
+   -  intents: Ask_python
+      example :
+       - Why is the Python for Kids a Perfect Programming Language?
+       - What Grade is Kids Python Programming For?
+       - How Python for Kids Promotes Algorithmic Thinking in Students?
+       - Do I Need to Download or Install Anything to Attend Python for Kids Sessions?
+       - Is Python Programming for Kids Difficult to Learn?
+       - How many Hours a Week Should I Practice Python For?
+       - What is Python?
+       - Is Python easy to learn?
+       - Why is Python a Great Choice for Kids?
+       - How useful is python
+       - How long will it take my child to learn Python?
+       - Why is Python good for kids?
+       - How to Choose the Best Python Coding Classes for Kids Online?
+       - Can I get more details about python coding?
+       - is it possible to learn python in 8 grade
+       -  what is future scope of python for 8 grade 
+       - what is future scope of Python for 9 grade
+       - what is the level of python in 8 grade
+       - what is the level of python in 9 grade
+       - How is Python programming language better for my kid?
+       - How is python used for designing mobile application?
+       - Which coding platform would be used to teach python programming?
+       - What is scope of python?
+       - What should my kid know before learning python?
+       - What would be contents of python progrmaming course?
+       - Does python course covers all topics theoretically and practically? 
+       - Is python the right language for my child?
+       - 
+       
+    - intents: Ask_courses
+      example :
+       - Do you introduce a new coding course for the student?
+       - Do you have any value added courses within the Coding course?
+       - How many courses are currently provided ?
+       - Do you have any advanced courses in coding?
+       - what all languages do you have in the course
+       - how to leave a particular course
+       - What programming languages would be taught?
+       - My kid has no coding experience, which course should i opt for?
+       - What's the difference between Intermediate and Professional course?
+       - What is the duration of Intermediate course?
+       - What is the duration of Starter course?
+       - What is the duration of Professional course?
+       - What does the kid needs to know for Starter Course?
+       - What does the kid needs to for Intermediate Course?
+       - What are prerequisites for Professional Course?
+       - What would be outcomes of Starter course?
+       - What would be outcomes of Intermediate course?
+       - Can i only opt for Game app development in the course?
+       - Can i only opt for Artificial Intelligence in the course?
+       - Can i only opt for Mobile app development in the course?
+       - Show me the list of courses available
+       - What is cost of Starter course?
+       - What is cost of Intermediate course?
+       - What is cost of Advanced course?
+       - what are the different courses that are available on your platform? 
+       - What is cost for 12 months course?
+       - 
+      
   
