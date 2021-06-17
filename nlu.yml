@@ -144,6 +144,19 @@ example:  |
   - which mode of payment is best ?
   - is payment necessary?
   - 
+  - intents : Ask_salary
+    example :
+    - how much does a python based full stack web developer earn ?
+    - how much does a python based machine learning engineer earns?
+    - how much does a python based artificial Intelligence earns ?
+    - how much does java developer make ?
+    - how much does htlm developer make ?
+    - how much does Machine learning engineer make ?
+    - what is the salary of machine learning expert earns per month ?
+    - how much does python developer make?
+    - how much does an artificial intelligence engineer make ?
+    - how much does mobile app developer make ?
+    -
   - intents : About_my_account
     example :
     - how do i edit student information?
