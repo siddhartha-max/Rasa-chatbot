@@ -156,6 +156,19 @@ example:  |
     - how much does an artificial intelligence engineer make ?
     - how much does mobile app developer make ?
     -
+   - intents : Experience_teacher
+     example :
+     - how much experience do CKY academic mentors have ?
+     - how much experience do java mentor have ?
+     - how much experience do html mentor have ?
+     - how much experience do python mentor have ?
+     - how much experience do scratch mentor have ?
+     - how much experience do machine learning mentor have ?
+     - how much experience do artificial intelligence mentor have ?
+     - how much experience do app development mentor have ?
+     - how much experience do data science mentor have ?
+     - how much experience do web designing mentor have ?
+     -
   - intents : About_my_account
     example :  |
     - how do i edit student information?
@@ -163,7 +176,13 @@ example:  |
     - how do i check my performance/report?
     - how do i create multiple users/profiles within one account?
     -
-   - intent : Upgrade_course
+  - intents : Referral_program
+    example :
+    - what is the "Referral Program"?
+    - how do I refer a friend/family to CKY?
+    - how do I redeem my credit/coins?
+    -
+  - intent : Upgrade_course
      examples :  |
      - i want to transfer my kid from game development to artificial intelligence. Is this possible?
      - i want to transfer my kid from Java programming to html. Is this possible ?
