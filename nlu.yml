@@ -294,6 +294,90 @@ example:  |
        - What is cost of Advanced course?
        - what are the different courses that are available on your platform? 
        - What is cost for 12 months course?
-       - 
+       -intent: Ask_programming_language
+        examples: |
+     -What is scratch programming?
+     -How scratch programming will help my child?
+     -Why scratch programming is not there in grade 5-7 starter pack?
+     -Which programming languages are taught in Basic course?
+     -Which programming languages are taught in Starter course?
+     -Which programming languages are taught in yearly course?
+     -Is python programming taught in Basic course?
+     -Is python possible to learn for a 5th grade student?
+     -Does your institution provide theoretical knowledge or even practical implementation of python is taught?
+     -what is Python?
+     -Can I do python programming on mobile?
+     -Why Python is popular language?
+     -Is Python programming used in industries?
+     -intend: Ask_fee_structure
+      examples:
+      -Is fees reasonable?
+      -Special fee structure for small kids?
+      -Fess is very high?
+      -Do you have any partial payment method?
+      -EMI option in the fee structure?
+      -Discount in the fess
+      -what is the fee for python?
+      -What is the fee for the course?
+      -What is the monthly fee?
+      -Extra fee other than class?
+      -cost for starter pack?
+      -Is fee refundable?
+      -How to pay th fees?
+     -Relaxation in the fees?
+     -intend: Ask_mode_teaching
+     examples:
+     -Are students able to attend their class in Phone or laptop?
+     -I do not  have a laptop. Can I join in classes with my phone?
+     -on which platform classes will be there?
+     -can I opt for offline sessions?
+     -can I use pc or laptop for classes
+     -How exactly is learning personalised in your classroom on CKY?
+     -Do they teach using visual block coding or text-based languages?
+     -What is the mode of study?
+     -Does my child need to bring a computer?
+     -What kind of equipment does my child need to participate?
+     -Mode of study is online or offline?
+     -Can I request to change my mode of study?
+     -intend: Ask benefit_coding
+     examples:
+     -will programming really hold my child's attention? 
+     -what is the future scope of HTML? 
+     -What is the future scope of Java? 
+     -what is the future scope of python? 
+     -what is the future scope of A.I? 
+     -what is the future scope of mobile app development? 
+     -what is the future scope of web development? 
+     -What is the need for web development?
+     -What is the need for game app development?
+     -What is the need for mobile app development?
+     -What is the need for Artificial Intelligence?
+     - what are the benefits of learning python programming? 
+     -what are the benefits of learning java programming? 
+      -what are the benefits of learning html programming? 
+      -what are the benefits of learning scratch programming? 
+       -what are the benefits of learning c programming? 
+       -what are the benefits of learning c++ programming? 
+       -what are the benefits of learning php programming? 
+       -intend: Ask_Class_time
+       Examples:
+       -What is the duration of lectures provided?
+       -What is the duration for live classes?
+       -What is the duration of the course?
+       -Can I request for changing my class time?
+       -Will we get some extra time if needed?
+       -will there be batches at different times?
+       -Can I request to customize course timings?
+       -Can I request to customize course duration?
+       -What if I missed my class at the time?
+       -Will we get break in between the classes?
+      
+        
+       
+"
+     
+"
+     
+       
       
   
