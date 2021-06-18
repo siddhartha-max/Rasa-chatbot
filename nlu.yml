@@ -541,7 +541,17 @@ nlu:
     - My kid wants to transfer to Web Development?
     - My kid wants to transfer to Mobile App Development?
 
+  -intent : About_Mentor
+     -How can i contact mentor
+     -will my kid only have one mentor alloted or group of kids have same mentor
+     -will mentor be avaliable to clear my kids doubt
+     -do mentor update me about my kids performance
+     -can i discuss about improvement of my kid with mentor
+   -intent: Ask_discounts
+     -can i get any discount for my kid
      
+     
+  
        
       
   
