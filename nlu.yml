@@ -481,17 +481,66 @@ nlu:
     - Can I do block based coding on mobile
     - What projects can I make using block based coding
     - Why should my child learn block based coding
-    
+  
+ - intent: About_cky
+    - What is code karo Yaro?
+    - Tell me about CKY's infrastructure? 
+    - CKY teaches programming in classes or virtually ? 
+    - where is the Main Office of CKY in india?
+    - How is CKY better than other platforms? 
+    - How can I contact to CKY? 
+    - What is the experience of the faculty members of CKY?
+    - Is your company "CKY" reputable?
+    - In which year code karo yaaro was founded ?
+    - who is the founder of code karo yaaro ?
+    - What is CKY ? 
+- intent: About_refund_policy
+    - What are the refund policies of CKY?
+    - If my kid drops out in the middle of a course, do i get a refund ?
+    - Who should i contact to get my refund ?
+    - what is the process to get my refund ?
+    - If I opt out of a course in the middle of the course due to some reason, do I get a refund?
+    - Is there a money back guarantee ?  
+- intent: about_linux
+    - Is linux programming good for kids?
+    - Do you teach linux ? 
+    - What is the price for a 3 months course of linux programming?
+    - Do you provide linux course for 10th standard students?
+    - why kids should learn linux? 
+    - what is thye price fo a 6 months course of linux programming? 
+    - What is the price of a 12 months course of linux programming? 
+    - Is there a project for at the end of linux programming course ? 
+    - what is the future scope of linux ?
+    - why linux is important ? 
+    - Career in linux programming ?
+    - salary of linux engineer ? 
+- intent: about_phone
+    - Can i attend classes on my phone ? 
+    - Can you please give me your number? 
+    - Do you provide internet for classes? 
+    - can I use mobile phone for attending classes ?
+    - where to call for any help ? 
+    - Can my kid code on mobile phone?
+    - do you provide mobile phones for course?
+    - what if my phone stops working in middle of class ?
+    - what type of mobile phone is required for attending the classes ?
+    - How much internet speed is required for attending the classes ?
+- intent : about_transfer_course
+    - I want my kid to transfer from mobile app development to A.I course, is this possible?
+    - I want my kid to transfer from A.I course to mobile app development ? 
+    - I want my kid to transfer from A.I course to Web Development ? 
+    - I want my kid to transfer from Web Development to A.I course ? 
+    - I want my kid to transfer from Scratch to A.I course ?
+    - I want my kid to transfer from A.I course to Scratch ?
+    - I want my kid to transfer from Html Programming to Python Programming ?
+    - I want my kid to transfer from Java Programming to Python Programming ?
+    - I want my kid to transfer from Python Programming to Java Programming ?
+    - I want my kid to transfer from mobile app development to Web Development ?
+    - I want my kid to transfer from Html to Java Programming ? 
+    - My kid wants to transfer A.I course, Is this possible ?
+    - My kid wants to transfer to Web Development?
+    - My kid wants to transfer to Mobile App Development?
 
-
-
-
-
-        
-       
-"
-     
-"
      
        
       
