@@ -483,6 +483,7 @@ nlu:
     - Why should my child learn block based coding
   
  - intent: About_cky
+   examples: |
     - What is code karo Yaro?
     - Tell me about CKY's infrastructure? 
     - CKY teaches programming in classes or virtually ? 
@@ -495,6 +496,7 @@ nlu:
     - who is the founder of code karo yaaro ?
     - What is CKY ? 
 - intent: About_refund_policy
+  examples: |
     - What are the refund policies of CKY?
     - If my kid drops out in the middle of a course, do i get a refund ?
     - Who should i contact to get my refund ?
@@ -502,6 +504,7 @@ nlu:
     - If I opt out of a course in the middle of the course due to some reason, do I get a refund?
     - Is there a money back guarantee ?  
 - intent: about_linux
+  examples: |
     - Is linux programming good for kids?
     - Do you teach linux ? 
     - What is the price for a 3 months course of linux programming?
@@ -515,6 +518,7 @@ nlu:
     - Career in linux programming ?
     - salary of linux engineer ? 
 - intent: about_phone
+  examples: |
     - Can i attend classes on my phone ? 
     - Can you please give me your number? 
     - Do you provide internet for classes? 
@@ -526,6 +530,7 @@ nlu:
     - what type of mobile phone is required for attending the classes ?
     - How much internet speed is required for attending the classes ?
 - intent : about_transfer_course
+  examples: |
     - I want my kid to transfer from mobile app development to A.I course, is this possible?
     - I want my kid to transfer from A.I course to mobile app development ? 
     - I want my kid to transfer from A.I course to Web Development ? 
