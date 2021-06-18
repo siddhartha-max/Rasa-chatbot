@@ -89,6 +89,19 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
     
+ - intent: About_CKY
+  examples: |
+  -why we choose cky?
+  -How many students are joining code karo yaaro all over india?
+  -Can you please give me your number?
+  -Do you have any branch in Kolkata ? 
+  -Do you have any branch in Delhi ?
+  -Do you have any branch in Bangalore ?
+  -How many branches do you have in all of India ?
+  -What are the Visions of your code karo yaaro? 
+  -Do you have any extension plans in your institution? 
+  -
+    
 - intent: Scope_coding
   examples: |
      - what is the scope of coding ?
@@ -129,6 +142,7 @@ example:  |
   - is class hours can be reduced?
   - can I reduce the class hours?
   - can i increase the class hours?
+  -How many hours do you take classes every day?
 
 - intents : Ask_payment
   example :  |
@@ -181,7 +195,7 @@ example:  |
     - what is the "Referral Program"?
     - how do I refer a friend/family to CKY?
     - how do I redeem my credit/coins?
-    -
+    -Are parents allowed during the online classes?
   - intent : Upgrade_course
      examples :  |
      - i want to transfer my kid from game development to artificial intelligence. Is this possible?
@@ -225,6 +239,8 @@ example:  |
       - Any tie-ups?
       - With how many companies do you have tie ups?
       - Had tie-up benefitted Codekaro yaro?
+      -Do you have any corporate partnership?
+      -Is a given certificate approved by any big TI company?
       
     - intent : collaboration
       examples: |
@@ -233,6 +249,7 @@ example:  |
       - How collaboration has helped the organisation?
       - How many schools have collaborated with organisation?
       
+      
      - intent: carrer
        examples:  |
        - How can I contact HR?
@@ -240,10 +257,16 @@ example:  |
        - I want to teach in CodeKaro Yaaro.
        - How can I join as a faculty?
        - What is the process to join the organisation?
+       -Can my kid get a chance in NASA?
+       -Can my kid get a chance in ISRO?
+       -Can my kid get a chance in Google or Microsoft?
+       -How can we help my kid with coding?
+       -Is it possible for my child to make an app by himself ?
+       -Do these Coding skills help the students for higher study?
        
  
 
-   - intents: Ask_age_group
+     intents: Ask_age_group
      example :
       - Which coding language is suitable for 8-10 years old child?
       - Is it possible to understand my 8-10 year old kid coding?
@@ -253,7 +276,16 @@ example:  |
       - Do you conduct any test before enrolling into the course for 8-10 year old kids?
       - Do you  recommend any books for an 8-10 year old kid coding ?
       - Do you Provide meditation classes for 8-10 year old students with coding?
-      
+      -Which coding language is suitable for 8-10 kids ?
+      -Is it possible to understand my 8-10 year old kid coding?
+      -Coding is hard or easy for an 8-10 year old kid?
+      -Can an 8-10 year old kid code like a professional? 
+      -How much time does an 8-10 year old kind learn coding?
+      -Is it any facility to learn above 8-10 year old kid coding?
+      -Is an 8-10 year old student a separate batch or not?
+      -Can teachers handle 8-10 year old kids?
+      -Can you please help me to enroll an 8-10 year old kid?
+      -Do you  recommend any books for an 8-10 year old kid coding ?
    -  intents: Ask_python
       example :
        - Why is the Python for Kids a Perfect Programming Language?
@@ -313,6 +345,13 @@ example:  |
        - What is cost of Advanced course?
        - what are the different courses that are available on your platform? 
        - What is cost for 12 months course?
+       -Is AI also included in the starter course plan?
+       -Is AI also included in the Yearly course plan?
+       -Do you introduce a new coding course for the student?
+       -Do you have any value added courses within the Coding course?
+       -How many courses are currently provided ?
+       
+       
        -intent: Ask_programming_language
         examples: |
      -What is scratch programming?
@@ -344,6 +383,8 @@ example:  |
       -Is fee refundable?
       -How to pay th fees?
      -Relaxation in the fees?
+     -Are course fees that are suitable for middle class people?
+     
      -intend: Ask_mode_teaching
      examples:
      -Are students able to attend their class in Phone or laptop?
@@ -358,6 +399,8 @@ example:  |
      -What kind of equipment does my child need to participate?
      -Mode of study is online or offline?
      -Can I request to change my mode of study?
+     -Which platform is choosing for online classes?
+     -How many qualified teachers do you have for coding course?
      -intend: Ask benefit_coding
      examples:
      -will programming really hold my child's attention? 
@@ -378,6 +421,7 @@ example:  |
        -what are the benefits of learning c programming? 
        -what are the benefits of learning c++ programming? 
        -what are the benefits of learning php programming? 
+       -How can my child apply this coding skill in real life?
        -intend: Ask_Class_time
        Examples:
        -What is the duration of lectures provided?
@@ -390,109 +434,33 @@ example:  |
        -Can I request to customize course duration?
        -What if I missed my class at the time?
        -Will we get break in between the classes?
-      version: "2.0"
-
-nlu:
-- intent: Ask_duration
-  examples: |
-    - How long is the course
-    - What is the duration of python course
-    - What are the duration of the course
-    - How long is the course duration
-    - What is the duration of scratch course
-    - What is the duration of Intermediate course
-    - What is the duration of Starter course
-    - How long Professional course is
-    - How long scratch course takes
-    - How long Intermediate course takes
-    - How long Starter course takes
-    - How long Professional course takes
-    
-    
-- intent: Ask_demo_class
-  examples: |
-    - do you have any live demo classes
-    - Can I get a demo class
-    - Is a demo lecture possible
-    - Does it is availability of demo class
-    - What I have to do to get demo class
-    - how many demo classes are there
-    - What is the procedure of registering for demo class.
-    - Are demo classes provided.
-    - What do we get in demo classes.
-    - Do I need to pay something to get demo classes.
-    - What is the duration of demo classes.
-    - Demo are available for which classes.
-    - I want a trial class for my kid, please guide me how to book a free trial
-    - is there any trial class 
-    - What is the duration of free trial 
-    - WHICH COURSES CAN I ACCESS AS PART OF MY TRIAL
-    - If it is a paid course, does it have a free trial or money back guarantee
-    - Are there any free courses available on your platform
-    - Is there a free trial or money back guarantee
-    
-
-
-
-    
-- intent: Ask_co-curricular
-  examples: |
-    - Do you provide Extra curricular activities classes with coding
-    - Any extra co curricular activites are also there
-    - My child is good in carrom can he use that in coding
-    - My child is good in chess can he use that in coding
-    - My child is good in maze can he use that in coding
-    - My child is good in cross-word can he use that in coding
-    - My child is good in Abacus can he use that in coding
-    - Do you include dancing in your teaching for smaller childrens
-    - Do you include music in your teaching for smaller childrens
-    - What extra co curricular activites do you include in your teaching
-    - How to grow a student's interest in word coding 
-    - What is dance with coding.
-    - Coding is hard or easy for an 8-10 year old kid
-
-
-- intent: Ask_guide_helpline
-  examples: |
-    - any contacts details for further guide.
-    - Is this self-guided
-    - Can you call and guide me
-    - where to call for any helpline
-    - what is the number of your customer care executive
-    - Need Help To Understand Complete Product Usage
-    - Can you please give me your number?
-    - how to contact the mentor
-    - what is the number of mentor
-
-- intent: Ask_block_based_coding
-  examples: |
-    - Do they teach using visual block coding or text-based languages?
-    - Do you teach using visual block coding or text-based languages? 
-    - What is block based coding?
-    - Do they teach using visual block coding or text-based languages?
-    - Isn't programming too complex for kids? 
-    - What the Future Block-based Programming Might Be
-    - The Case for Block-based Programming
-    - What programing language used for block based coding
-    - What programming language are you using for block based coding
-    - is block based coding any good
-    - What course do you teach block based coding
-    - Can I do block based coding
-    - Can I do block based coding on mobile
-    - What projects can I make using block based coding
-    - Why should my child learn block based coding
-    
-
-
-
-
-
-        
+       -Do any classes occur on Saturday and sunday?
        
+       
+       intents : Ask_financial_assistance
+     example :
+      -Do you have an EMI option for paying for the course free?
+      -How much amount pay in the monthly EMI ?
+      -Can CodeKaroYaaro give me a special price for five kids?
+      -Can CodeKaroYaaro give me a special price to recommend to other people?
+       -Can I get any promo code for discount of course? 
+       
+       
+       intents : Ask_demo_class
+     example :
+     -Do you have any pre-recorded videos for demo purposes? 
+     -Do you have any extra doubt session classes for the student? 
+     -What is the timing of doubt session classes?
 "
-     
-"
-     
+      intents : Ask_study_material
+     example :
+     -Do you have any assignment facilities after one topic finishes? 
+     -Do you have any special teachers for helping student assignments ?
+    intents : Ask_abstract_question
+     example :
+    -How to grow a student's interest in word coding ?
+    -
+   
        
       
   
