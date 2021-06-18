@@ -483,6 +483,7 @@ nlu:
     - Why should my child learn block based coding
   
  - intent: About_cky
+   examples: |
     - What is code karo Yaro?
     - Tell me about CKY's infrastructure? 
     - CKY teaches programming in classes or virtually ? 
@@ -495,6 +496,7 @@ nlu:
     - who is the founder of code karo yaaro ?
     - What is CKY ? 
 - intent: About_refund_policy
+  examples: |
     - What are the refund policies of CKY?
     - If my kid drops out in the middle of a course, do i get a refund ?
     - Who should i contact to get my refund ?
@@ -502,6 +504,7 @@ nlu:
     - If I opt out of a course in the middle of the course due to some reason, do I get a refund?
     - Is there a money back guarantee ?  
 - intent: about_linux
+  examples: |
     - Is linux programming good for kids?
     - Do you teach linux ? 
     - What is the price for a 3 months course of linux programming?
@@ -515,6 +518,7 @@ nlu:
     - Career in linux programming ?
     - salary of linux engineer ? 
 - intent: about_phone
+  examples: |
     - Can i attend classes on my phone ? 
     - Can you please give me your number? 
     - Do you provide internet for classes? 
@@ -526,6 +530,7 @@ nlu:
     - what type of mobile phone is required for attending the classes ?
     - How much internet speed is required for attending the classes ?
 - intent : about_transfer_course
+  examples: |
     - I want my kid to transfer from mobile app development to A.I course, is this possible?
     - I want my kid to transfer from A.I course to mobile app development ? 
     - I want my kid to transfer from A.I course to Web Development ? 
@@ -540,7 +545,7 @@ nlu:
     - My kid wants to transfer A.I course, Is this possible ?
     - My kid wants to transfer to Web Development?
     - My kid wants to transfer to Mobile App Development?
-
+    
   -intent : About_Mentor
      -How can i contact mentor
      -will my kid only have one mentor alloted or group of kids have same mentor
@@ -550,8 +555,56 @@ nlu:
    -intent: Ask_discounts
      -can i get any discount for my kid
      
-     
-  
-       
+- intent : Ask_comapare_companies
+    - How is CKY better than other online kids coding platforms?
+    - Is CKY better than WhiteHat Jr.?
+    - Does CKY offer courses at relatively cheaper cost than other online coding schools?
+    - can I get a demo coding class at CKY like other online coding platforms?
+    - Are the teachers at CKY better than other online kids coding companies?
+    - Are the counselors at CKY better than other online kids coding companies?
+    - Does online coding contests happen regularly at CKY like other kids coding companies?
+    - Do we get any certificates after completing the course like other online coding companies?
+    - Does CKY provides personal teaching to students like other online coding companies?
+    
+- intent : Ask_admission_procedure
+    - What is the admission procedure?
+    - How can i take admission for a particular course at CKY?
+    - Can i get a demo class before taking admission?
+    - I donot have email account. can I fill admission form without it?
+    - When will the admission start?
+    - How can I pay the admission fees?
+    
+- intent : Ask_gameapp_development
+    - Is game development also taught at CKY?
+    - What are the future scopes of a game developer?
+    - What are the future scopes of a game developer in India?
+    - How much salary does a game developer gets?
+    - Is game development necessary to learn?
+    - How difficult is it for a kid to learn game development?
+    - What are coding languages one needs to learn for game development?
+    - What are the major companies that hire game developers?
+
+- intent : Ask_app_development
+    - Is app development also taught at CKY?
+    - What are the future scopes of a app developer?
+    - What are the future scopes of a app developer in India?
+    - How much salary does an app developer gets?
+    - Is app development necessary to learn?
+    - How difficult is it for a kid to learn app development?
+    - What are coding languages one needs to learn for app development?
+    - What are the major companies that hire app developers?
+    
+- intent : Ask_core_values
+    - what are the core values of this company?
+    - How many core values does CKY follows?
+    - What should be the core values of a student enrolling for a course at CKY?
+    - What are the core values of the teachers at CKY?
+    - Is learning at CKY competitive?
+    - Can we see continuous progress in a student a CKY?
+    - Is there a scope for collaborative approach for learning?
+    - Can a student have proper study-life balance at CKY?
+    - What is the importance of a feedback for CKY?
+    - What actions does CKY takes in response to the feedback?
+    
       
   
