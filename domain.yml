@@ -89,6 +89,69 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+  
+  utter_about_cky:
+  - text: "Code Karo Yaaro, An online coding school for kids from 6 years to 15 years old."
+  - text: "CodeKaroYaaro warmly welcomes you. please visit our website to check the courses or contact us on Phone : +91 8010996763."
+  - text: "We have live as well as recorded classes in CKY"
+  - text: "We have our main office at Nagpur, Maharastra."
+  - text: "We are offering courses in affordable prices."
+  - text: "You can call us on Phone : +91 8010996763 or email us at Email : info@codekaroyaaro.com or visit out website https://codekaroyaaro.com"
+  - text: "Have an experience of 5 - 10 years "
+  - text: "yes"
+  - text: "In 2020 "
+  - text: "Manish Motghare"
+  - text: "Code Karo Yaaro, An online coding school for kids from 6 years to 15 years old."
+  
+  utter_refund_policy:
+  - text: "Contact us at +91 8010996763"
+  - text: "Contact us at +91 8010996763"
+  - text: "Contact us at +91 8010996763"
+  - text: "Contact us at +91 8010996763"
+  - text: "Contact us at +91 8010996763"
+  - text: "Contact us at +91 8010996763"
+
+  utter_linux:
+  - text: "yes"
+  - text: "yes"
+  - text: "Rs.4500"
+  - text: "yes"
+  - text: "Using Linux at such an early age also indirectly teaches children the benefit of volunteering something many of us need to learn more about."
+  - text: "Rs 8000"
+  - text: "Rs 12000"
+  - text: "Yes , here at cky we make sure that students learn through live projects."
+  - text: "Due to its open-source nature and the potential for a very small OS footprint, Linux-based operating systems could find their way into a range of connected devices, from our homes and cars to our places of business."
+  - text: "Linux helps you to use or utilize your old and outdated computer systems as a firewall, router, backup server or file server and many more. There are many distributions available to use according to your system capability. "
+  - text: "DevOps Engineer,Java Developer,Software Engineer,Systems Administrator,Systems Engineer,Senior Software Engineer,Python Developer,Network Engineer."
+  - text: "Linux Engineers in America make an average salary of $84,725 per year or $41 per hour."
+
+  utter_about_phone:
+  - text: "Yes"
+  - text: "contact us at : +91 8010996763"
+  - text: "Normal data packs are more than sufficient for the online classes."
+  - text: "Yes you can use your mobile phone for both attending the classes as well for coding purposes."
+  - text: "Contact  at. +91 8010996763 to know about this."
+  - text: "Yes, we provide our coding platform on mobile phone also."
+  - text: "No, we do not provide mobile phones"
+  - text: "We will provide backup class."
+  - text: "4G enabled mobile phone is compulsory"
+  - text: "3Mbps"
+
+  utter_about_tranfer:
+  - text: "Yes, contact us for more information."
+  - text: "Yes, contact us for more information."
+  - text: "Yes, contact us for more information."
+  - text: "Yes, contact us for more information."
+  - text: "Yes, contact us for more information."
+  - text: "Yes, contact us for more information."
+  - text: "Yes, contact us for more information."
+  - text: "Yes, contact us for more information."
+  - text: "Yes, contact us for more information."
+  - text: "Yes, contact us for more information."
+  - text: "Yes, contact us for more information."
+  - text: "Yes, contact us for more information."
+  - text: "Yes, contact us for more information."
+  - text: "Yes, contact us for more information."
 
 session_config:
   session_expiration_time: 60
