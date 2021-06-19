@@ -89,7 +89,7 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
     
-- intent: Scope_coding
+- intent: scope_coding
   examples: |
      - what is the scope of coding ?
      - what is the future in coding ?
@@ -182,7 +182,7 @@ example:  |
     - how do I refer a friend/family to CKY?
     - how do I redeem my credit/coins?
     -
-  - intent : Upgrade_course
+  - intent : yes_possible
      examples :  |
      - i want to transfer my kid from game development to artificial intelligence. Is this possible?
      - i want to transfer my kid from Java programming to html. Is this possible ?
