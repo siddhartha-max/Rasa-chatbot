@@ -92,7 +92,9 @@ responses:
   - text: "Yes, contact us for more information."
   - text: "Yes, contact us for more information."
   - text: "Yes, contact us for more information."
+  
 utter_abstract_type:
+utter_about_tranfer:
 -text: "Yes, we can help your kid for achieve this gole.Please contact us for more information. "
 session_config:
   session_expiration_time: 60
