@@ -604,5 +604,10 @@ example:  |
     - What is the importance of a feedback for CKY?
     - What actions does CKY takes in response to the feedback?
     
-      
+      - intent : abstract_type
+      -Can my kid get a chance in NASA?
+      -Can my kid get a chance in ISRO?
+      -Can my kid get a chance in Google or Microsoft?
+      -Can my kid get a chance in Google for paid internship?
+      -Can my kid get a chance in Microsoft for paid internship?
   
