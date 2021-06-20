@@ -91,3 +91,10 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
+- intent: bot_challenge
+  examples: |
+  -Can my kid get a chance in NASA?
+  -Can my kid get a chance in ISRO?
+  -Can my kid get a chance in Google or Microsoft?
+  -Can my kid get a chance in Google for paid internship?
+  -Can my kid get a chance in Microsoft for paid internship?
