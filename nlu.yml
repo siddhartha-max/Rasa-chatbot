@@ -95,6 +95,7 @@ nlu:
      - what is the future in coding ?
      - is coding beneficial ?
      - is my future bright in coding?
+     - 
      
 - intent: Admission_criteria
   examples: |
@@ -141,7 +142,7 @@ example:  |
   - can i use online payment?
   - which mode of payment is best ?
   - is payment necessary?
-  
+  - 
   - intents : Ask_salary
     example :   |
     - how much does a python based full stack web developer earn ?
@@ -180,7 +181,7 @@ example:  |
     - what is the "Referral Program"?
     - how do I refer a friend/family to CKY?
     - how do I redeem my credit/coins?
-    
+    -
   - intent : yes_possible
      examples :  |
      - i want to transfer my kid from game development to artificial intelligence. Is this possible?
@@ -240,6 +241,8 @@ example:  |
        - How can I join as a faculty?
        - What is the process to join the organisation?
        
+ 
+
    - intents: Ask_age_group
      example :
       - Which coding language is suitable for 8-10 years old child?
@@ -280,6 +283,7 @@ example:  |
        - What would be contents of python progrmaming course?
        - Does python course covers all topics theoretically and practically? 
        - Is python the right language for my child?
+       - 
        
     - intents: Ask_courses
       example :
@@ -324,7 +328,6 @@ example:  |
      -Can I do python programming on mobile?
      -Why Python is popular language?
      -Is Python programming used in industries?
-     
      -intend: Ask_fee_structure
       examples:
       -Is fees reasonable?
@@ -341,7 +344,6 @@ example:  |
       -Is fee refundable?
       -How to pay th fees?
      -Relaxation in the fees?
-     
      -intend: Ask_mode_teaching
      examples:
      -Are students able to attend their class in Phone or laptop?
@@ -356,7 +358,6 @@ example:  |
      -What kind of equipment does my child need to participate?
      -Mode of study is online or offline?
      -Can I request to change my mode of study?
-     
      -intend: Ask benefit_coding
      examples:
      -will programming really hold my child's attention? 
@@ -377,7 +378,6 @@ example:  |
        -what are the benefits of learning c programming? 
        -what are the benefits of learning c++ programming? 
        -what are the benefits of learning php programming? 
-       
        -intend: Ask_Class_time
        Examples:
        -What is the duration of lectures provided?
@@ -390,7 +390,9 @@ example:  |
        -Can I request to customize course duration?
        -What if I missed my class at the time?
        -Will we get break in between the classes?
-    
+      version: "2.0"
+
+nlu:
 - intent: Ask_duration
   examples: |
     - How long is the course
@@ -493,6 +495,7 @@ example:  |
     - In which year code karo yaaro was founded ?
     - who is the founder of code karo yaaro ?
     - What is CKY ? 
+    -How many branches CKY have in all of India ?
 - intent: About_refund_policy
   examples: |
     - What are the refund policies of CKY?
@@ -552,6 +555,8 @@ example:  |
      -can i discuss about improvement of my kid with mentor
    -intent: Ask_discounts
      -can i get any discount for my kid
+     -Can CodeKaroYaaro give me a special discount for five kids?
+     -Can CodeKaroYaaro give me a special discount to recommend to other people?
      
 - intent : Ask_comapare_companies
     - How is CKY better than other online kids coding platforms?
@@ -563,6 +568,7 @@ example:  |
     - Does online coding contests happen regularly at CKY like other kids coding companies?
     - Do we get any certificates after completing the course like other online coding companies?
     - Does CKY provides personal teaching to students like other online coding companies?
+    -Does CKY provides Extra curricular activities classes with coding like other online coding companies?
     
 - intent : Ask_admission_procedure
     - What is the admission procedure?
@@ -603,6 +609,8 @@ example:  |
     - Can a student have proper study-life balance at CKY?
     - What is the importance of a feedback for CKY?
     - What actions does CKY takes in response to the feedback?
+    
+    -intent : 
     
       
   
