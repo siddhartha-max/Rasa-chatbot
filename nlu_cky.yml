@@ -107,3 +107,13 @@ nlu:
      - where nlp is used?
      - tell me about nlp in detail?
      - can we use nlp in real life?
+     
+ - intent : Ask_workshop
+      examples:  |
+        - what about workshop?
+        - Do you conduct workshop?
+        - Workshop
+        - Are workshop useful?
+        - What happen in whorkshop?
+        - what is workshop?
+        - Do we have to pay for the workshop?
