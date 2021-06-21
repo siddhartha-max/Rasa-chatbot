@@ -93,20 +93,179 @@ nlu:
 
 - intent: bot_challenge
   examples: |
-    -Can my kid get a chance in NASA?
-    -Can my kid get a chance in ISRO?
-    -Can my kid get a chance in Google or Microsoft?
-    -Can my kid get a chance in Google for paid internship?
-    -Can my kid get a chance in Microsoft for paid internship?
+    - Can my kid get a chance in NASA?
+    - Can my kid get a chance in ISRO?
+    - Can my kid get a chance in Google or Microsoft?
+    - Can my kid get a chance in Google for paid internship?
+    - Can my kid get a chance in Microsoft for paid internship?
 
 - intent: abstract_type
   examples: |
-    -Can my kid get a chance in NASA?
-    -Can my kid get a chance in ISRO?
-    -Can my kid get a chance in Google or Microsoft?
-    -Can my kid get a chance in Google for paid internship?
-    -Can my kid get a chance in Microsoft for paid internship?
+    - Can my kid get a chance in NASA?
+    - Can my kid get a chance in ISRO?
+    - Can my kid get a chance in Google or Microsoft?
+    - Can my kid get a chance in Google for paid internship?
+    - Can my kid get a chance in Microsoft for paid internship?
   
+  -intent: Coding_Future
+   examples:
+     - How can coding help my daughter for future jobs?
+     - How can coding help my son for future jobs?
+  
+  -intent: Python_Scope
+   examples:
+     - What is scope of python?
+
+ -intent: Course_Duration
+  examples:
+    - How much time does it take for someone to become an expert in Machine Learning? 
+    - How much time does it take for someone to become an expert in Mobile App development ? 
+    - How much time does it take for someone to become an expert in artificial intelligence ? 
+    - How much time does it take for someone to become an expert in Game Development ? 
+
+ -intent: Course_Fee
+  examples:
+    - what is the price of the overall course ?
+ 
+ -intent: Batch_Size
+  examples:
+    - How many students are allowed in one batch?
+
+-intent: Course_Info
+ examples:
+   - What course options do you have for older/younger children?
+
+-intent: About_Python
+ examples:
+   - why should my child learn python compared to any other language
+
+-intent: Basic_Course_Content
+ examples:
+   - What is given in Basic course?
+   - What is given in Starter course?
+
+-intent: About_Intermediate_and_Advance_Course
+ examples:
+   - what is differece between advance  and intermediate pack?
+
+-intent: About_Intermediate_and_Professional_Course
+ examples:
+   - What's the difference between Intermediate and Professional course?
+
+-intent: Course-Package
+ examples: 
+   - what are you going to teach in scratch programming for Grade 1-4  in starter package? 
+   - What does intermediate pack for 8th class include?
+   - What does intermediate pack for 9th class include?
+   - What does intermediate pack for 10th class include?
+
+
+-intents: Live_Session
+ examples:
+  -What are the live interactive sessions?
+
+-intents: Course_Transfer
+ examples:
+  -is it okay if my child want to switch courses in between?
+
+-intents: Study_Materials
+ examples:
+  -Do you  recommend any books for python coding ?
+  -Do you  recommend any books for an 8-10 year old kid coding ?
+
+-intents: Choosing_Programming_Language
+ examples:
+   - My kid has no coding experience, which course should i opt for?
+
+-intents: Programming_Language
+ examples: 
+   - What programming languages would be taught?
+
+-intents: Use_of_c++_and_HTML
+ examples:
+   - what are the difference between C++ and html?
+
+-intents: About_HTML
+ examples:
+   - What is HTML?
+   - How is html useful?
+
+-intents: HTML_Scope
+ examples:
+   - what is the future scope of HTML? 
+
+-intents: After_Scratch_Programme
+ examples:
+   - My child already know scratch. What do I do?
+
+
+-intents: choosing_Programming_Language
+ examples:
+   - My son is in 10th standard which programming language is best for him? 
+   - my son is in 12th standard, which programming language is the best option for him?  
+   - My son is in 9th standard which programming language is best for him? 
+   - My son is in 8th standard which programming language is best for him? 
+   - My kid is in 10th standard, which programming language would help him in his further studies? 
+
+-intents: Benefit_of_c++_Programming
+ examples:
+   - what are the benefits of learning c++ programming? 
+
+-intents: Scratch_Info
+ examples:
+  - What grade is scratch for?
+
+-intents: Scratch_Programming
+ examples:
+   - How do my kid learn Scratch programming?
+
+-intents: Free_Course
+ examples:
+   - If it is a paid course, does it have a free trial or money back guarantee?
+
+-intents: About_Certification
+ examples:
+   - Will my child get a certificate?
+
+-intents: About_Scholarship
+ examples:
+   - Do you have a scholarship test?
+
+-intents: About_Refund
+ examples:
+   - If I opt out of a course in the middle of the course due to some reason, do I get a refund?
+
+-intents: About_course_enrollment
+ examples:
+   - Where do I enroll in courses?
+
+-intents: About_Batch
+ examples:
+   - can i choose the timing according to my ease?
+   - How to change the time slot?
+   - How to change the mentor?
+   - After enrollment how should i attend classes?
+
+-intents: About_Course
+ examples:
+  - What is the cost of the course?
+
+-intents: About_Java_Program
+ examples:
+  - what are the benefits of learning java programming? 
+
+-intents: About_coding_Benefit
+ examples:
+   - Do these Coding skills help the students for higher study?
+
+-intents: Apply_For_Coding
+ examples:
+    - How can my child apply this coding skill in real life? 
+
+-intents: Coding_Interest
+ examples:  |
+    - My child has no interest in coding. How can I engage and encourage him? 
+
  - intent : Ask_nlp
    examples:  |
      - Is there a course available on NLP ? 
@@ -115,6 +274,45 @@ nlu:
      - where nlp is used?
      - tell me about nlp in detail?
      - can we use nlp in real life?
+  
+ - intent : welcome_queries
+   examples:  |
+     - We want to visit your institution
+     - Do you have any branch in Kolkata ? 
+     - Do you have any branch in Delhi ?
+     - Do you have any branch in Bangalore ?
+     - Can I get any promo code for discount of course?
+     - Do you have an EMI option for paying for the course free?
+     - How much amount pay in the monthly EMI ?
+     - Do you have an EMI option for paying for an 8-10 year old course free?
+
+ - intent : ratings and reviews
+   examples:  |
+     - what is your rating ?
+     - what makes you different from others?
+     - what are reviews of students ?
+     - do you have any feedback of students?
+     
+ - intent : about demo class
+   examples:  |
+     - do you have any live demo classes?
+     - is there any trial class ?
+
+- intent : time slot and mentor change
+   examples:  |
+     - how to change the time slot?
+     - how to change the mentor?
+     - can i choose the timing according to my ease?
+
+- intent : discounts
+   examples:  |
+     - is there any discount for longer period?
+     - what all discounts do you have?
+
+- intent : fees
+   examples:  |
+     - what is the course fee monthly?
+     - what is the course fee annually?
      
  - intent : Ask_workshop
       examples:  |
@@ -125,28 +323,6 @@ nlu:
         - What happen in whorkshop?
         - what is workshop?
         - Do we have to pay for the workshop?
-  
- - intent : Value_add_course
-         examples:  |
-          -Is AI also included in the starter course plan?
-          -Is AI also included in the Yearly course plan?
-          -Is web development also included in the starter course plan?
-          -Is web development also included in the Yearly course plan?
-          -Is AI also included in the basic course plan?
-          -Is web development also included in the basic course plan?
-
-  - intent : Exam_Facility 
-         examples:  |
-          -Do you have any exam facility after one topic finishes? 
-          -Do you have any assignment facilities after one topic finishes? 
-          -Do you have any special exam facility after completing course ?
-          -Do you have any surprise tests in the classroom?
-          
-  - intent : Branch_info
-         examples:  | 
-          - Do you have any branch in Kolkata ? 
-          -Do you have any branch in Delhi ?
-          -Do you have any branch in Bangalore ?
     
  - intent: Ask_tie_ups
       examples:  |
@@ -228,23 +404,23 @@ nlu:
     examples:  | 
        - How many teachers are assigned for one batch?
        
-- intent: help_my_kid
+intent: help_my_kid
    examples:  |
       - How can I help my kid with coding?
-- intent:  Yes_
+intent:  Yes_
    examples:  |
       - Will all online class recording will be provided to us?
       - Will all online classes be recorded?
       - can I see the recording after classes
       
-- intent: opt_offline
+intent: opt_offline
     examples: |
        - can I opt for offline sessions
-- intent: where_certificate
+       
+intent: where_certificate
    examples:  |
        - where will i recieve my course certifacte after completion?
-       
-       
+  
 - intent: coding_importance
    examples: |
       - why is coding important? 
@@ -598,8 +774,6 @@ nlu:
     -Is AI also included in the starter course plan?
     -Is AI also included in the Yearly course plan?
 
-
-
 - intent: Ask_demo_class
   examples: |
     - do you have any live demo classes
@@ -621,10 +795,7 @@ nlu:
     - If it is a paid course, does it have a free trial or money back guarantee
     - Are there any free courses available on your platform
     - Is there a free trial or money back guarantee
-    
-
-
-
+   
     
 - intent: Ask_co-curricular
   examples: |
@@ -679,10 +850,3 @@ nlu:
     - In which year code karo yaaro was founded ?
     - who is the founder of code karo yaaro ?
     
-
-
-
-
-
-
-
