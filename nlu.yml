@@ -198,13 +198,7 @@ example:  |
      
    
       
-     - intent: carrer
-       examples:  |
-       - How can I contact HR?
-       - I want to forward my resume?
-       - I want to teach in CodeKaro Yaaro.
-       - How can I join as a faculty?
-       - What is the process to join the organisation?
+  
        
    - intents: Ask_age_group
      example :
