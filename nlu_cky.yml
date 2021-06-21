@@ -115,45 +115,6 @@ nlu:
      - where nlp is used?
      - tell me about nlp in detail?
      - can we use nlp in real life?
-  
- - intent : welcome_queries
-   examples:  |
-     - We want to visit your institution
-     - Do you have any branch in Kolkata ? 
-     - Do you have any branch in Delhi ?
-     - Do you have any branch in Bangalore ?
-     - Can I get any promo code for discount of course?
-     - Do you have an EMI option for paying for the course free?
-     - How much amount pay in the monthly EMI ?
-     - Do you have an EMI option for paying for an 8-10 year old course free?
-
- - intent : ratings and reviews
-   examples:  |
-     - what is your rating ?
-     - what makes you different from others?
-     - what are reviews of students ?
-     - do you have any feedback of students?
-     
- - intent : about demo class
-   examples:  |
-     - do you have any live demo classes?
-     - is there any trial class ?
-
-- intent : time slot and mentor change
-   examples:  |
-     - how to change the time slot?
-     - how to change the mentor?
-     - can i choose the timing according to my ease?
-
-- intent : discounts
-   examples:  |
-     - is there any discount for longer period?
-     - what all discounts do you have?
-
-- intent : fees
-   examples:  |
-     - what is the course fee monthly?
-     - what is the course fee annually?
      
  - intent : Ask_workshop
       examples:  |
@@ -245,19 +206,75 @@ nlu:
     examples:  | 
        - How many teachers are assigned for one batch?
        
-intent: help_my_kid
+- intent: help_my_kid
    examples:  |
       - How can I help my kid with coding?
-intent:  Yes_
+- intent:  Yes_
    examples:  |
       - Will all online class recording will be provided to us?
       - Will all online classes be recorded?
       - can I see the recording after classes
       
-intent: opt_offline
+- intent: opt_offline
     examples: |
        - can I opt for offline sessions
-intent: where_certificate
+- intent: where_certificate
    examples:  |
        - where will i recieve my course certifacte after completion?
+       
+- intent : Can_I
+    examples: |
+    - Is Web development included in starter course for grade 8-10?
+    - Is Web development included in intermediate course for grade 8-10?
+    - Is Web development included in professional course for grade 8-10?
+    - Can I exclude Web development from starter course for grade 8-10?
+    - Can I exclude Web development from intermediate course for grade 8-10?
+    - Can I exclude Web development from professional course for grade 8-10?
+    - Can I exclude Web development from starter course for grade 8-10 and get a concession?
+    - Can I exclude Web development from intermediate course for grade 8-10 and get a concession?
+    - Can I exclude Web development from professional course for grade 8-10 and get a concession?
+    - Is Web development included in starter course for grade 10+?
+    - Is Web development included in intermediate course for grade 10+?
+    - Is Web development included in professional course for grade 10+?
+    - Can I exclude Web development from starter course for grade 10+?
+    - Can I exclude Web development from intermediate course for grade 10+?
+    - Can I exclude Web development from professional course for grade 10+?
+    - Can I exclude Web development from starter course for grade 10+ and get a concession?
+    - Can I exclude Web development from intermediate course for grade 10+ and get a concession?
+    - Can I exclude Web development from professional course for grade 10+ and get a concession?
+    - Is Mobile app development included in starter course for grade 1-4?
+    - Is Mobile app development included in intermediate course for grade 1-4?
+    - Is Mobile app development included in professional course for grade 1-4?
+    - Can I exclude Mobile app development from the course?
+    - Can I exclude Mobile app development from starter course for grade 1-4?
+    - Can I exclude Mobile app development from intermediate course for grade 1-4?
+    - Can I exclude Mobile app development from professional course for grade 1-4?
+    - Can I exclude Mobile app development from the course and get a concession?
+    - Can I exclude Mobile app development from starter course for grade 1-4 and get a concession?
+    - Can I exclude Mobile app development from intermediate course for grade 1-4 and get a concession?
+    - Can I exclude Mobile app development from professional course for grade 1-4 and get a concession?
+    - Is Mobile app development included in starter course for grade 5-7?
+    - Is Mobile app development included in intermediate course for grade 5-7?
+    - Is Mobile app development included in professional course for grade 5-7?
+    - Can I exclude Mobile app development from starter course for grade 5-7?
+    - Can I exclude Mobile app development from intermediate course for grade 5-7?
+    - Can I exclude Mobile app development from professional course for grade 5-7?
+    - Can I exclude Mobile app development from starter course for grade 5-7 and get a concession?
+    - Can I exclude Mobile app development from intermediate course for grade 5-7 and get a concession?
+    - Can I exclude Mobile app development from professional course for grade 5-7 and get a concession?
+    - Is Mobile app development included in starter course for grade 8-10?
+    - Is Mobile app development included in intermediate course for grade 8-10?
+    - Is Mobile app development included in professional course for grade 8-10?
+    - Can I remove Mobile app development from starter course for grade 8-10?
+    - Can I remove Mobile app development from intermediate course for grade 8-10?
+    - Can I remove Mobile app development from professional course for grade 8-10?
+    - Can I remove Mobile app development from starter course for grade 8-10 and get discount?
+    - Can I remove Mobile app development from intermediate course for grade 8-10 and get discount?
+    - Can I remove Mobile app development from professional course for grade 8-10 and get discount?
+    - Is Mobile app development included in starter course for grade 10+?
+    - Is Mobile app development included in intermediate course for grade 10+?
+    - Is Mobile app development included in professional course for grade 10+?
+    - Can I remove Mobile app development from starter course for grade 10+?
+
+
 
