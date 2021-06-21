@@ -194,20 +194,7 @@ example:  |
      - i want to enroll for intermediate pack from professional pack. Is this possible ?
      - i want to add Java and python programming languages to my pack. Is this possible ?
     
-   - intent : Ask_nlp
-     examples:  |
-     - Is there a course available on NLP ? 
-     - what is nlp?
-     - full form of nlp?
-     - where nlp is used?
-     - tell me about nlp in detail?
-     - can we use nlp in real life?
-     - What does a NLP pipeline consist of?
-     - What is Parsing in the context of NLP?
-     - What is Named Entity Recognition(NER)?
-     - How is feature extraction done in NLP
-     - Name some popular models other than Bag of words?
-     - What is Latent Semantic Indexing?
+
      
     - intent : Ask_workshop
       examples:  |
