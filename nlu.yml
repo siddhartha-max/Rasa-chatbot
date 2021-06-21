@@ -197,27 +197,8 @@ example:  |
 
      
    
-
-    - intent: Ask_tie_ups
-      examples:  |
-        - Any tie-ups?
-        - With how many companies do you have tie ups?
-        - Had tie-up benefitted Codekaro yaro?
-
-    - intent : collaboration
-      examples: |
-      - Do you have any collaboration with schools?
-      - Did any school used your courses to teach their students?
-      - How collaboration has helped the organisation?
-      - How many schools have collaborated with organisation?
       
-     - intent: carrer
-       examples:  |
-       - How can I contact HR?
-       - I want to forward my resume?
-       - I want to teach in CodeKaro Yaaro.
-       - How can I join as a faculty?
-       - What is the process to join the organisation?
+  
        
    - intents: Ask_age_group
      example :
