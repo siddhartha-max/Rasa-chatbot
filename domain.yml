@@ -9,9 +9,6 @@ intents:
   - mood_unhappy
   - bot_challenge
   - Can_I
-  - ask_report
-  - ask_course_query
-  - ask_remove_course
 
 responses:
   utter_greet:
@@ -101,13 +98,28 @@ utter_about_tranfer:
 utter_Can_I:
   - text: "Yes, Contact us at +91 8010996763 for more information"
   
-utter_ask_report:
-  - text: "Our professional mentors keeps the report of every kid on the basis of assesments and daily hard work of the kid and provide them to parents which motivates them to do more efforts towards coding."
-utter_ask_course_query:
-  - text: "Introduction to every topic is included in starter package which makes the kid to decide the field of their interest and makes them to work best in the same field."
+  utter_coding_importance:
+  - text: "Coding teaches  logical reasoning, critical thinking, and most importantly helps us to solve problems by creating software that makes life easier for people."
+  - text: "Coding teaches creativity, logical reasoning, critical thinking, and most importantly helps us to solve problems by creating software that makes life easier for people."
+  - text: "Coding is a basic literacy in the digital age, and it is important for kids to understand and be able to work with it. "
+  - text: "Coding is a Skill Set that can be pursued by anyone who wants to amaze the world with his solutions to make everyday life easier."
+  
 
-utter_ask_remove_course:
-  - text: "you can check the course details on our website or contact us on  Phone : +91 8010996763."
+
+  utter_contact:
+  - text: "Contact  at. +91 8010996763 to know about this. "
+  - text: "contact no. +91 8010996763 for more information."
+  
+
+  utter_about_app:
+  - text: "Currently we don't have an app, but you can sign up to our website."
+
+  utter_academic_progress:
+  - text: "Curriculum based monitoring tests, observation and interaction, formative assessment, frequent evalutions."
+
+  utter_student_struggling:
+  - text: "Do engage with our codekaroyaro classes they will easily understand coding and they wont struggle anymore"
+  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
