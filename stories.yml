@@ -48,3 +48,38 @@ stories:
   steps:
   - intent: ask_remove_course
   - action: utter_ask_remove_course
+
+- story: cky1 
+  steps:
+  - intent: Course_related
+  - action: "CKY provides you with variety of courses which you change according to the interest of kids".
+
+- story: cky2 
+  steps:
+  - intent: Upgrade
+  - action: "Yes,CKY provides you with variety of courses which you change according to the interest of kids".
+
+- story: cky3
+  steps:
+  - intent: Contact_visit
+  - action: "Visit https://www.codekaroyaaro.com/ or call us at +91 8010996763".
+
+- story: cky4
+  steps:
+  - intent: Python_Easy
+  - action: "Python is considered one of the easiest language to learn".
+
+- story: cky5
+  steps:
+  - intent: About_Python
+  - action: "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance".
+
+- story: cky6
+  steps:
+  - intent: Interest
+  - action: "It depends on the interest of an individual".
+
+story: cky7
+  steps:
+  - intent: Future_Python
+  - action: "Python-based tech is driving innovation and new solutions".
