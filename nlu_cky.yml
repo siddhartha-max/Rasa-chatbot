@@ -333,13 +333,21 @@ intents: Scratch_Info
           -Is AI also included in the Yearly course plan?
           -Is web development also included in the starter course plan?
           -Is web development also included in the Yearly course plan?
-          -
+          -Is AI also included in the basic course plan?
+          -Is web development also included in the basic course plan?
+
       - intent : Exam_Facility 
          examples:  |
           -Do you have any exam facility after one topic finishes? 
           -Do you have any assignment facilities after one topic finishes? 
           -Do you have any special exam facility after completing course ?
           -Do you have any surprise tests in the classroom?
+          
+       - intent : Branch_info
+         examples:  | 
+          - Do you have any branch in Kolkata ? 
+          -Do you have any branch in Delhi ?
+          -Do you have any branch in Bangalore ?
     
  - intent: Ask_tie_ups
       examples:  |
