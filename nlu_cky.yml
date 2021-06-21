@@ -139,3 +139,50 @@ nlu:
          - I want to teach in CodeKaro Yaaro.
          - How can I join as a faculty?
          - What is the process to join the organisation?
+         
+  - intent: contact_us
+       examples:  | 
+          - Can I get more details about coding?
+          - Can I get more details about python coding?
+          - Can I get more details about java coding?
+          - What is cost for 3 months course?
+          - What is cost for 6 months course?
+          -  What is the cost for live classes?
+          -  What packages are there for Python course?
+          -  How scratch programming will help my child?
+          -  Why scratch programming is not there in grade 5-7 starter pack?
+          -  Is python programming taught in Basic course?
+          -  Is python programming taught in Starter course?
+          -  Is python programming taught in Yearly course?
+          -  What is the need for game app development?
+          -  What is the need for mobile app development?
+          -  What is the need for Artificial Intelligence?
+          -  Game app development is included in Basic course?
+          -  Game app development is included in Starter course?
+          -  Game app development is included in Yearly course?
+          -  Can I exclude Game app development from Basic course?
+          -  Can I exclude Game app development from Starter course?
+          -  Can I exclude Game app development from Yearly course?
+          -  Web development is included in Basic course?
+          -  Web development is included in Starter course?
+          -  Web development is included in Yearly course?
+          -  Can I remove Web development from Basic course?
+          -  Can I remove Web development from Starter course?
+          -  Can I remove Web development from Yearly course?
+          -  Mobile app development is there in Basic course?
+          -  Mobile app development is there in Starter course?
+          -  Mobile app development is there in Yearly course?
+          -  Can I remove Mobile app development from Starter course?
+          -  Can I remove Mobile app development from Yearly course?
+          -  Can I remove Game app development from Basic course and get discount?
+          -  Can I remove Game app development from Starter course and get discount?
+          -  Can I remove Game app development from Yearly course and get discount?
+          -  Can I remove Web development from Basic course and get discount?
+          -  Can I remove Web development from Starter course and get discount?
+          -  Can I remove Web development from Yearly course and get discount?
+          -  Can I remove Mobile app development from Basic course and get discount?
+          -  Can I remove Mobile app development from Starter course and get discount?
+          -  Can I remove Mobile app development from Yearly course and get discount?
+
+
+
