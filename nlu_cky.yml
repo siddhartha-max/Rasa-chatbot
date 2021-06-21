@@ -326,6 +326,20 @@ intents: Scratch_Info
         - What happen in whorkshop?
         - what is workshop?
         - Do we have to pay for the workshop?
+        
+     - intent : Value_add_course
+         examples:  |
+          -Is AI also included in the starter course plan?
+          -Is AI also included in the Yearly course plan?
+          -Is web development also included in the starter course plan?
+          -Is web development also included in the Yearly course plan?
+          -
+      - intent : Exam_Facility 
+         examples:  |
+          -Do you have any exam facility after one topic finishes? 
+          -Do you have any assignment facilities after one topic finishes? 
+          -Do you have any special exam facility after completing course ?
+          -Do you have any surprise tests in the classroom?
     
  - intent: Ask_tie_ups
       examples:  |
