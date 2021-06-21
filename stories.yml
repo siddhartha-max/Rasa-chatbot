@@ -33,3 +33,18 @@ stories:
   steps:
   - intent: Can_I
   - action: utter_Can_I
+  
+ - story: Cky
+  steps:
+  - intent: ask_report
+  - action: utter_ask_report
+
+- story: Cky_2
+  steps:
+  - intent: ask_course_query
+  - action: utter_ask_course_query
+
+- story: Cky_3
+  steps:
+  - intent: ask_remove_course
+  - action: utter_ask_remove_course
