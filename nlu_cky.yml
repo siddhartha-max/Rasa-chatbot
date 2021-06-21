@@ -221,5 +221,72 @@ intent: opt_offline
 intent: where_certificate
    examples:  |
        - where will i recieve my course certifacte after completion?
+- intent: ask_report
+  examples: |
+    - Do you give progress report for grade 1-4 students enrolled in intermediate course?
+    - Do you give progress report for grade 1-4 students enrolled in professional course?
+    - Do you provide progress report for grade 5-7 students enrolled in basic course?
+    - Do you provide progress report for grade 5-7 students enrolled in intermediate course?
+    - Do you provide progress report for grade 5-7 students enrolled in professional course?
+    - Do you provide progress report for grade 7-10 students enrolled in basic course?
+    - Do you provide progress report for grade 7-10 students enrolled in intermediate course?
+    - Do you provide progress report for grade 7-10 students enrolled in professional course?
+    - Do you provide progress report for grade 10+ students enrolled in basic course? 
+    - Do you provide progress report for grade 10+ students enrolled in intermediate course?
+    - Do you provide progress report for grade 10+ students enrolled in professional course?
+    - Do you provide weekly progress report of students in 1:1 live classes?
+    - Do you provide weekly progress report of students for basic course of live classes?
+    - Do you provide weekly progress report of students for starter course of live classes?
+    - Do you provide weekly progress report of students for yearly course of live classes?
+    - Do you provide weekly progress report for grade 1-4 students enrolled in basic course?
+    - Do you provide weekly progress report for grade 1-4 students enrolled in intermediate course?
+    - Do you provide weekly progress report for grade 1-4 students enrolled in professional course?
+    - Do you provide weekly progress report for grade 5-7 students enrolled in basic course?
+    - Do you provide weekly progress report for grade 5-7 students enrolled in intermediate course?
+    - Do you provide weekly progress report for grade 5-7 students enrolled in professional course?
+    - Do you provide weekly progress report for grade 7-10 students enrolled in basic course?
+    - Do you provide weekly progress report for grade 7-10 students enrolled in intermediate course?
+    - Do you provide weekly progress report for grade 7-10 students enrolled in professional course?
+    - Do you provide weekly progress report for grade 10+ students enrolled in basic course?
+    - Do you provide weekly progress report for grade 10+ students enrolled in intermediate course?
+    - Do you provide weekly progress report for grade 10+ students enrolled in professional course?
+    - Do you provide monthly progress report of students in 1:1 live classes?
+    - Do you provide monthly progress report of students for basic course of live classes?
+    - Do you provide monthly progress report of students for starter course of live classes?
+    - Do you provide monthly progress report of students for yearly course of live classes?
+    - Do you provide monthly progress report for grade 1-4 students enrolled in basic course?
+    - Do you provide monthly progress report for grade 1-4 students enrolled in intermediate course?
+    - Do you provide monthly progress report for grade 1-4 students enrolled in professional course?
+    - Do you provide monthly progress report for grade 5-7 students enrolled in basic course?
+    - Do you provide monthly progress report for grade 5-7 students enrolled in intermediate course?
+    - Do you provide monthly progress report for grade 5-7 students enrolled in professional course?
+    - Do you provide monthly progress report for grade 7-10 students enrolled in basic course?
+    - Do you provide monthly progress report for grade 7-10 students enrolled in intermediate course?
+    - Do you provide monthly progress report for grade 7-10 students enrolled in professional course?
+    - Do you provide monthly progress report for grade 10+ students enrolled in basic course?
+    - Do you provide monthly progress report for grade 10+ students enrolled in intermediate course?
+    - Do you provide monthly progress report for grade 10+ students enrolled in professional course?
+    - Do you provide yearly progress report after completion of professional course?
+    - Do you provide yearly progress report after completion of professional course for 1-4 grade students?
+    - Do you provide yearly progress report after completion of professional course for 5-7 grade students?
+    - Do you provide yearly progress report after completion of professional course for 7-10 grade students?
+    - Do you provide yearly progress report after completion of professional course for 10+ grade students?
+
+- intent: ask_course_query
+  examples: |
+    - Is Game app development included in starter course for grade 1-4?
+    - Is Game app development included in intermediate course for grade 1-4?
+    - Is Game app development included in professional course for grade 1-4?
+
+- intent: ask_remove_course
+  examples: |
+    - Can I remove Game app development from the course?
+    - Can I remove Game app development from starter course for grade 1-4?
+    - Can I remove Game app development from intermediate course for grade 1-4?
+    - Can I remove Game app development from professional course for grade 1-4?
+    - Can I remove Game app development from the course and get a concession?
+    - Can I remove Game app development from starter course for grade 1-4 and get discount?
+    - Can I remove Game app development from intermediate course for grade 1-4 and get discount?
+    - Can I remove Game app development from professional course for grade 1-4 and get discount?       
 
 
