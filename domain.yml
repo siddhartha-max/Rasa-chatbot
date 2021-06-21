@@ -8,7 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - 
+  - Can_I
 
 responses:
   utter_greet:
@@ -94,6 +94,9 @@ responses:
   - text: "Yes, contact us for more information."
 utter_about_tranfer:
 -text: "Yes, we can help your kid for achieve this gole.Please contact us for more information. "
+
+utter_Can_I:
+  - text: "Yes, Contact us at +91 8010996763 for more information"
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
