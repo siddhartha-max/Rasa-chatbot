@@ -213,7 +213,6 @@ intent: opt_offline
 intent: where_certificate
    examples:  |
        - where will i recieve my course certifacte after completion?
-intent: 
 
 
 
