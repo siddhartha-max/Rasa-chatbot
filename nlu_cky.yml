@@ -416,7 +416,437 @@ intent:  Yes_
 intent: opt_offline
     examples: |
        - can I opt for offline sessions
+       
 intent: where_certificate
    examples:  |
        - where will i recieve my course certifacte after completion?
+  
+- intent: coding_importance
+   examples: |
+      - why is coding important? 
+      - Why should I enroll my child to learn coding?
+      - What is the need of coding?
+      - How will coding help my kids in school?
+      - My kids may not grow up to be coder/programmer/developer. so, what is the use of learning code?
+      - Code is important to everything that happens on a computer. Got it. Now what in the world is it? 
+      - How will coding help my kids in school?
+      - what are the benefits of learning programming? 
+    
 
+- intent: contact
+   examples: |
+      - what is the number of mentor
+      - how to leave a particular course
+      - how to contact the mentor
+      - where to call for any helpline
+      - Need Help To Understand Complete Product Usage?
+      - is there any discount for longer period
+      - what all discounts do you have
+      - Are there any discounts on yearly plan?
+      - Are there any discounts on starter plan?
+      - Are there any discounts on basic plan?
+      - what is the number of your customer care executive? 
+      - I have already paid for the course but it's still not reflecting on my CYK account? 
+      - How much do my kid have to score in the scholarship test to get at least 90% scholarship? 
+      - If I buy professional package, do I get a discount? 
+      - I want to transfer my kid from Game development to Artificial Intelligence. Is this possible? 
+      - what will be the timings of class throughout the course? 
+      - how can I get in touch with the teacher who is expert in python?
+      - how can I get in touch with the teacher who is expert in HTML? 
+      - how can I get in touch with the teacher who is expert in scratch? 
+      - how can I get in touch with the teacher who is expert in java?
+      - how can I get in touch with the teacher who is expert in C ?
+      - how can I get in touch with the teacher who is expert in C++?
+      - how can I get in touch with the teacher who is expert in mobile app development? 
+      - how can I get in touch with the teacher who is expert in A.I? 
+      - how can I get in touch with the teacher who is expert in web development?
+      - how can I get in touch with the teacher who is expert in php? 
+      - How to change my teacher? 
+    
+    
+- intent: about_app
+   examples: |
+      - how to use the app?
+
+- intent: academic_progress
+   examples: |
+      - how do you measure academic progress, and what are the strengths and weaknesses of that approach? 
+   
+- intent: student_struggling
+   examples: |
+      - My child is struggling, what should I do now?
+      - How can I help my child if I don't know anything about coding?
+
+- intent: ask_report
+  examples: |
+    - Do you give progress report for grade 1-4 students enrolled in intermediate course?
+    - Do you give progress report for grade 1-4 students enrolled in professional course?
+    - Do you provide progress report for grade 5-7 students enrolled in basic course?
+    - Do you provide progress report for grade 5-7 students enrolled in intermediate course?
+    - Do you provide progress report for grade 5-7 students enrolled in professional course?
+    - Do you provide progress report for grade 7-10 students enrolled in basic course?
+    - Do you provide progress report for grade 7-10 students enrolled in intermediate course?
+    - Do you provide progress report for grade 7-10 students enrolled in professional course?
+    - Do you provide progress report for grade 10+ students enrolled in basic course? 
+    - Do you provide progress report for grade 10+ students enrolled in intermediate course?
+    - Do you provide progress report for grade 10+ students enrolled in professional course?
+    - Do you provide weekly progress report of students in 1:1 live classes?
+    - Do you provide weekly progress report of students for basic course of live classes?
+    - Do you provide weekly progress report of students for starter course of live classes?
+    - Do you provide weekly progress report of students for yearly course of live classes?
+    - Do you provide weekly progress report for grade 1-4 students enrolled in basic course?
+    - Do you provide weekly progress report for grade 1-4 students enrolled in intermediate course?
+    - Do you provide weekly progress report for grade 1-4 students enrolled in professional course?
+    - Do you provide weekly progress report for grade 5-7 students enrolled in basic course?
+    - Do you provide weekly progress report for grade 5-7 students enrolled in intermediate course?
+    - Do you provide weekly progress report for grade 5-7 students enrolled in professional course?
+    - Do you provide weekly progress report for grade 7-10 students enrolled in basic course?
+    - Do you provide weekly progress report for grade 7-10 students enrolled in intermediate course?
+    - Do you provide weekly progress report for grade 7-10 students enrolled in professional course?
+    - Do you provide weekly progress report for grade 10+ students enrolled in basic course?
+    - Do you provide weekly progress report for grade 10+ students enrolled in intermediate course?
+    - Do you provide weekly progress report for grade 10+ students enrolled in professional course?
+    - Do you provide monthly progress report of students in 1:1 live classes?
+    - Do you provide monthly progress report of students for basic course of live classes?
+    - Do you provide monthly progress report of students for starter course of live classes?
+    - Do you provide monthly progress report of students for yearly course of live classes?
+    - Do you provide monthly progress report for grade 1-4 students enrolled in basic course?
+    - Do you provide monthly progress report for grade 1-4 students enrolled in intermediate course?
+    - Do you provide monthly progress report for grade 1-4 students enrolled in professional course?
+    - Do you provide monthly progress report for grade 5-7 students enrolled in basic course?
+    - Do you provide monthly progress report for grade 5-7 students enrolled in intermediate course?
+    - Do you provide monthly progress report for grade 5-7 students enrolled in professional course?
+    - Do you provide monthly progress report for grade 7-10 students enrolled in basic course?
+    - Do you provide monthly progress report for grade 7-10 students enrolled in intermediate course?
+    - Do you provide monthly progress report for grade 7-10 students enrolled in professional course?
+    - Do you provide monthly progress report for grade 10+ students enrolled in basic course?
+    - Do you provide monthly progress report for grade 10+ students enrolled in intermediate course?
+    - Do you provide monthly progress report for grade 10+ students enrolled in professional course?
+    - Do you provide yearly progress report after completion of professional course?
+    - Do you provide yearly progress report after completion of professional course for 1-4 grade students?
+    - Do you provide yearly progress report after completion of professional course for 5-7 grade students?
+    - Do you provide yearly progress report after completion of professional course for 7-10 grade students?
+    - Do you provide yearly progress report after completion of professional course for 10+ grade students?
+
+- intent: ask_course_query
+  examples: |
+    - Is Game app development included in starter course for grade 1-4?
+    - Is Game app development included in intermediate course for grade 1-4?
+    - Is Game app development included in professional course for grade 1-4?
+
+- intent: ask_remove_course
+  examples: |
+    - Can I remove Game app development from the course?
+    - Can I remove Game app development from starter course for grade 1-4?
+    - Can I remove Game app development from intermediate course for grade 1-4?
+    - Can I remove Game app development from professional course for grade 1-4?
+    - Can I remove Game app development from the course and get a concession?
+    - Can I remove Game app development from starter course for grade 1-4 and get discount?
+    - Can I remove Game app development from intermediate course for grade 1-4 and get discount?
+    - Can I remove Game app development from professional course for grade 1-4 and get discount?       
+       
+- intent : Can_I
+    examples: |
+        - Is Web development included in starter course for grade 8-10?
+        - Is Web development included in intermediate course for grade 8-10?
+        - Is Web development included in professional course for grade 8-10?
+        - Can I exclude Web development from starter course for grade 8-10?
+        - Can I exclude Web development from intermediate course for grade 8-10?
+        - Can I exclude Web development from professional course for grade 8-10?
+        - Can I exclude Web development from starter course for grade 8-10 and get a concession?
+        - Can I exclude Web development from intermediate course for grade 8-10 and get a concession?
+        - Can I exclude Web development from professional course for grade 8-10 and get a concession?
+        - Is Web development included in starter course for grade 10+?
+        - Is Web development included in intermediate course for grade 10+?
+        - Is Web development included in professional course for grade 10+?
+        - Can I exclude Web development from starter course for grade 10+?
+        - Can I exclude Web development from intermediate course for grade 10+?
+        - Can I exclude Web development from professional course for grade 10+?
+        - Can I exclude Web development from starter course for grade 10+ and get a concession?
+        - Can I exclude Web development from intermediate course for grade 10+ and get a concession?
+        - Can I exclude Web development from professional course for grade 10+ and get a concession?
+        - Is Mobile app development included in starter course for grade 1-4?
+        - Is Mobile app development included in intermediate course for grade 1-4?
+        - Is Mobile app development included in professional course for grade 1-4?
+        - Can I exclude Mobile app development from the course?
+        - Can I exclude Mobile app development from starter course for grade 1-4?
+        - Can I exclude Mobile app development from intermediate course for grade 1-4?
+        - Can I exclude Mobile app development from professional course for grade 1-4?
+        - Can I exclude Mobile app development from the course and get a concession?
+        - Can I exclude Mobile app development from starter course for grade 1-4 and get a concession?
+        - Can I exclude Mobile app development from intermediate course for grade 1-4 and get a concession?
+        - Can I exclude Mobile app development from professional course for grade 1-4 and get a concession?
+        - Is Mobile app development included in starter course for grade 5-7?
+        - Is Mobile app development included in intermediate course for grade 5-7?
+        - Is Mobile app development included in professional course for grade 5-7?
+        - Can I exclude Mobile app development from starter course for grade 5-7?
+        - Can I exclude Mobile app development from intermediate course for grade 5-7?
+        - Can I exclude Mobile app development from professional course for grade 5-7?
+        - Can I exclude Mobile app development from starter course for grade 5-7 and get a concession?
+        - Can I exclude Mobile app development from intermediate course for grade 5-7 and get a concession?
+        - Can I exclude Mobile app development from professional course for grade 5-7 and get a concession?
+        - Is Mobile app development included in starter course for grade 8-10?
+        - Is Mobile app development included in intermediate course for grade 8-10?
+        - Is Mobile app development included in professional course for grade 8-10?
+        - Can I remove Mobile app development from starter course for grade 8-10?
+        - Can I remove Mobile app development from intermediate course for grade 8-10?
+        - Can I remove Mobile app development from professional course for grade 8-10?
+        - Can I remove Mobile app development from starter course for grade 8-10 and get discount?
+        - Can I remove Mobile app development from intermediate course for grade 8-10 and get discount?
+        - Can I remove Mobile app development from professional course for grade 8-10 and get discount?
+        - Is Mobile app development included in starter course for grade 10+?
+        - Is Mobile app development included in intermediate course for grade 10+?
+        - Is Mobile app development included in professional course for grade 10+?
+        - Can I remove Mobile app development from starter course for grade 10+?
+        
+- intent: no_basic_classes
+  examples: |
+    -How many classes are there in Basic course plan?
+
+- intent: why_cky
+  examples: |
+    -why should I choose codeKaroYaro? 
+
+- intent: expirience
+  examples: |
+    -What is the experience of the faculty members of CKY?
+    
+- intent: time_webd_expert
+  examples: |
+    -how much time does it take for someone to become an expert in Web Development ? 
+
+- intent: monthly_fees
+  examples: |
+    -what is the course fee monthly
+
+- intent: scratch_age
+  examples: |
+    -Age range for scratch?
+
+- intent: programming
+  examples: |
+    -what is programming?
+
+- intent: opensource
+  examples: |
+    -What is an opensource?
+
+- intent: super_session
+  examples: |
+    -How many super sessions are there in Basic course?
+
+- intent: fun_projects
+  examples: |
+    -Courses on your platform are overly academic or are the fun and project based? 
+
+- intent: ds_roadmap
+  examples: |
+    -My son is in 12th standard and he wants to be a data scientists. Please suggest a course best suited for him
+
+- intent: duration_trial
+  examples: |
+    -What is the duration of free trial ?
+
+- intent: duration_proffesional
+  examples: |
+    -What is the duration of Professional course?
+
+- intent: batch_size
+  examples: |
+    -What Group Sizes of Batch?
+
+- intent: duration_starter 
+  examples: |
+    -What is the duration of Starter course?
+
+- intent: duration_basic
+  examples: |
+    -What is the duration of Basic course?
+
+- intent: super_yearly
+  examples: |
+    -How many super sessions are there in Yearly course?
+
+- intent: no_weekly_classes
+  examples: |
+    -How many classes you are providing in a week?
+
+- intent: no_weekly_starter
+  examples: |
+    -How many classes are there in Starter course plan?
+
+- intent: duration_intermediate
+  examples: |
+    -What is the duration of Intermediate course?
+
+- intent: correct_age
+  examples: |
+    -what is the correct age to learn to code? 
+
+- intent: classes_yearly
+  examples: |
+    -How many classes are there in Yearly course plan?
+- intent: bug
+  examples: |
+    -What is a bug?
+- intent: monthly_fees
+  examples: |
+    -What is your monthly fees?
+    -what is the fees per month?
+- intent: scratch_age
+  examples: |
+    -What is correct age to learn scratch?
+
+- intent: cancelation
+  examples: |
+    -What is your cancellation policy?
+    -If i enrolled the after which i have to unsubscribe the course , will my money returned or not ?
+    -If suppose my child enrolled for this program and not learned well about coding, so can my money will reflected back or not ?
+    -What if my kid leave the course, will I get my money back?
+
+
+- intent: html_duration
+  examples: |
+    -will learning html require lot of time?
+    -which will take more time to learn among html and python?
+    -will learning html require lot of time?
+
+
+- intent: duration_learn
+  examples: |
+    -How many months will be sufficient for my child to learn coding ?
+
+- intent: duration_class
+  examples: |
+    -what is the duration of classes
+
+- intent: advance_include
+  examples: |
+    -What does advanced pack for 8th class include?
+    -What does advanced pack for 9th class include?
+    -What does advanced pack for 10th class include?
+
+
+- intent: teacher_accuracy
+  examples: |
+    -what is the accuracy of teaching
+
+- intent: annual_fees
+  examples: |
+    -what is the course fee annually
+
+- intent: platform
+  examples: |
+    -Which platform is choosing for online classes?
+
+- intent: 5th_grader
+  examples: |
+    -I have 5th Grader, which Program should i enroll?
+
+- intent: api
+  examples: |
+    -What is an API?
+
+- intent: ai
+  examples: |
+    -what is Artificial Intelligence
+    -what is the future scope of A.I? 
+
+- intent: salary_fullstack
+  examples: |
+    -how much does a python based full stack web developer earn? 
+
+- intent: salary_ml
+  examples: |
+    -how much does a python based machine learning engineer earns? 
+
+- intent: salary_ai
+  examples: |
+    -how much does a python based A.I engineer earns? 
+
+- intent: course_list
+  examples: |
+    -what are the different courses that are available on your platform? 
+
+- intent: ai_course
+  examples: |
+    -Is AI also included in the basic course plan?
+    -Is AI also included in the starter course plan?
+    -Is AI also included in the Yearly course plan?
+
+- intent: Ask_demo_class
+  examples: |
+    - do you have any live demo classes
+    - Can I get a demo class
+    - Is a demo lecture possible
+    - Does it is availability of demo class
+    - What I have to do to get demo class
+    - how many demo classes are there
+    - What is the procedure of registering for demo class.
+    - Are demo classes provided.
+    - What do we get in demo classes.
+    - Do I need to pay something to get demo classes.
+    - What is the duration of demo classes.
+    - Demo are available for which classes.
+    - I want a trial class for my kid, please guide me how to book a free trial
+    - is there any trial class 
+    - What is the duration of free trial 
+    - WHICH COURSES CAN I ACCESS AS PART OF MY TRIAL
+    - If it is a paid course, does it have a free trial or money back guarantee
+    - Are there any free courses available on your platform
+    - Is there a free trial or money back guarantee
+   
+    
+- intent: Ask_co-curricular
+  examples: |
+    - Do you provide Extra curricular activities classes with coding
+    - Any extra co curricular activites are also there
+    - My child is good in carrom can he use that in coding
+    - My child is good in chess can he use that in coding
+    - My child is good in maze can he use that in coding
+    - My child is good in cross-word can he use that in coding
+    - My child is good in Abacus can he use that in coding
+    - Do you include dancing in your teaching for smaller childrens
+    - Do you include music in your teaching for smaller childrens
+    - What extra co curricular activites do you include in your teaching
+    - How to grow a student's interest in word coding 
+    - What is dance with coding.
+    - Coding is hard or easy for an 8-10 year old kid
+
+
+- intent: Ask_guide_helpline
+  examples: |
+    - any contacts details for further guide.
+    - Is this self-guided
+    - Can you call and guide me
+    - where to call for any helpline
+    - what is the number of your customer care executive
+    - Need Help To Understand Complete Product Usage
+    - Can you please give me your number?
+    - how to contact the mentor
+    - what is the number of mentor
+
+- intent: Ask_block_based_coding
+  examples: |
+    - Do they teach using visual block coding or text-based languages?
+    - Do you teach using visual block coding or text-based languages? 
+    - What is block based coding?
+    - Do they teach using visual block coding or text-based languages?
+    - Isn't programming too complex for kids? 
+    - What the Future Block-based Programming Might Be
+    - The Case for Block-based Programming
+    - What programing language used for block based coding
+    - What programming language are you using for block based coding
+    - is block based coding any good
+    - What course do you teach block based coding
+    - Can I do block based coding
+    - Can I do block based coding on mobile
+    - What projects can I make using block based coding
+    - Why should my child learn block based coding
+    
+- intent: About_CKY
+  examples: |
+    - What is code karo Yaro?
+    - In which year code karo yaaro was founded ?
+    - who is the founder of code karo yaaro ?
+    

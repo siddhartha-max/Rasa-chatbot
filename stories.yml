@@ -48,3 +48,264 @@ stories:
   steps:
   - intent: ask_remove_course
   - action: utter_ask_remove_course
+  
+- story: importance Coding 
+  steps:
+  - intent: coding_importance
+  - action: utter_coding_importance
+
+- story: contact
+  steps:
+  - intent: contact
+  - action: utter_contact
+
+- story: App
+  steps:
+  - intent: about_app
+  - action: utter_about_app
+
+- story: academic progress
+  steps:
+  - intent: academic_progress
+  - action: utter_academic_progress
+
+- story: student struggling
+  steps:
+  - intent: student_struggling
+  - action: utter_student_struggling
+
+stories:
+
+- story: duration
+  steps:
+  - intent: Ask_duration
+  - action: utter_Ask_duration
+
+- story: demo
+  steps:
+  - intent: Ask_demo_class
+  - action: utter_Ask_demo_class
+  
+- story: co-curricular
+  steps:
+  - intent: Ask_co-curricular
+  - action: utter_Ask_co-curricular
+  
+- story: helpline
+  steps:
+  - intent: Ask_guide_helpline
+  - action: utter_Ask_guide_helpline
+
+- story: block-coding
+  steps:
+  - intent: Ask_block_based_coding
+  - action: utter_Ask_block_based_coding
+- story: CKY
+  steps:
+  - intent: about_cky
+  - action: utter_about_cky
+
+- story: CKY
+  steps:
+  - intent: about_cky
+  - action: utter_about_cky
+
+- story: no_basic_classes
+  steps:
+  - intent: no_basic_classes
+  - action: utter_no_basic_classes
+- story: why_cky
+  steps:
+  - intent: why_cky
+  - action: utter_why_cky
+  
+- story: expirience
+  steps:
+  - intent: expirience
+  - action: utter_expirience
+  
+- story: time_webd_expert
+  steps:
+  - intent: time_webd_expert
+  - action: utter_time_webd_expert
+  
+- story: monthly_fees
+  steps:
+  - intent: monthly_fees
+  - action: utter_scratch_ageutter_monthly_fees
+  
+- story: cratch_age
+  steps:
+  - intent: scratch_age
+  - action: utter_scratch_age
+  
+- story: programming
+  steps:
+  - intent: programming
+  - action: utter_programming
+  
+- story: opensource
+  steps:
+  - intent: opensource
+  - action: utter_opensource
+  
+- story: super_session
+  steps:
+  - intent: super_session
+  - action: utter_super_session
+  
+- story:  fun_projects
+  steps:
+  - intent:  fun_projects
+  - action: utter_fun_projects
+  
+- story:  ds_roadmap 
+  steps:
+  - intent:  ds_roadmap 
+  - action: utter_ds_roadmap 
+  
+- story:  duration_trial
+  steps:
+  - intent:  duration_trial
+  - action: utter_duration_trial
+  
+- story:  duration_proffesional
+  steps:
+  - intent:  duration_proffesional
+  - action: utter_duration_proffesional
+  
+- story:  batch_size
+  steps:
+  - intent:  batch_size
+  - action: utter_batch_size
+  
+- story:  duration_starter
+  steps:
+  - intent:  duration_starter
+  - action: utter_duration_starter
+  
+- story:  uduration_basic
+  steps:
+  - intent:  duration_basic
+  - action: utter_duration_basic
+  
+- story:  super_yearly
+  steps:
+  - intent:  super_yearly
+  - action: utter_super_yearly
+  
+- story:  no_weekly_classes
+  steps:
+  - intent:  no_weekly_classes
+  - action: utter_no_weekly_classes
+  
+- story: no_weekly_starter
+  steps:
+  - intent: no_weekly_starter
+  - action: utter_no_weekly_starter
+  
+- story: no_basic_classes
+  steps:
+  - intent: no_basic_classes
+  - action: utter_no_basic_classes
+  
+- story: duration_intermediate
+  steps:
+  - intent: duration_intermediate
+  - action: utter_duration_intermediate
+  
+- story: correct_age
+  steps:
+  - intent: correct_age
+  - action: utter_correct_age
+
+- story: bug
+  steps:
+  - intent: bug
+  - action: utter_bug
+
+- story: classes_yearly
+  steps:
+  - intent: classes_yearly
+  - action: utter_classes_yearly
+
+- story: cancelation
+  steps:
+  - intent: cancelation
+  - action: utter_cancelation
+
+- story: html_duration
+  steps:
+  - intent: html_duration
+  - action: utter_html_duration
+
+- story: duration_learn
+  steps:
+  - intent: duration_learn
+  - action: utter_duration_learn
+
+- story: duration_class
+  steps:
+  - intent: duration_class
+  - action: utter_duration_class
+
+- story: advance_include
+  steps:
+  - intent: advance_include
+  - action: utter_advance_include
+
+- story: teacher_accuracy
+  steps:
+  - intent: teacher_accuracy
+  - action: utter_teacher_accuracy
+
+- story: annual_fees
+  steps:
+  - intent: annual_fees
+  - action: utter_annual_fees
+
+- story: platform
+  steps:
+  - intent: platform
+  - action: utter_platform
+
+- story: 5th_grader
+  steps:
+  - intent: 5th_grader
+  - action: utter_5th_grader
+
+- story: api
+  steps:
+  - intent: api
+  - action: utter_api
+
+- story: ai
+  steps:
+  - intent: ai
+  - action: utter_ai
+
+- story: salary_fullstack
+  steps:
+  - intent: salary_fullstack
+  - action: utter_salary_fullstack
+
+- story: salary_ml
+  steps:
+  - intent: salary_ml
+  - action: utter_salary_ml
+
+- story: salary_ai
+  steps:
+  - intent: salary_ai
+  - action: utter_salary_ai
+
+- story: course_list
+  steps:
+  - intent: course_list
+  - action: utter_course_list
+
+- story: ai_course
+  steps:
+  - intent: ai_course
+  - action: utter_ai_course
+
