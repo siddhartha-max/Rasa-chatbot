@@ -48,3 +48,29 @@ stories:
   steps:
   - intent: ask_remove_course
   - action: utter_ask_remove_course
+  
+- story: importance Coding 
+  steps:
+  - intent: coding_importance
+  - action: utter_coding_importance
+
+- story: contact
+  steps:
+  - intent: contact
+  - action: utter_contact
+
+- story: App
+  steps:
+  - intent: about_app
+  - action: utter_about_app
+
+- story: academic progress
+  steps:
+  - intent: academic_progress
+  - action: utter_academic_progress
+
+- story: student struggling
+  steps:
+  - intent: student_struggling
+  - action: utter_student_struggling
+
