@@ -115,45 +115,6 @@ nlu:
      - where nlp is used?
      - tell me about nlp in detail?
      - can we use nlp in real life?
-  
- - intent : welcome_queries
-   examples:  |
-     - We want to visit your institution
-     - Do you have any branch in Kolkata ? 
-     - Do you have any branch in Delhi ?
-     - Do you have any branch in Bangalore ?
-     - Can I get any promo code for discount of course?
-     - Do you have an EMI option for paying for the course free?
-     - How much amount pay in the monthly EMI ?
-     - Do you have an EMI option for paying for an 8-10 year old course free?
-
- - intent : ratings and reviews
-   examples:  |
-     - what is your rating ?
-     - what makes you different from others?
-     - what are reviews of students ?
-     - do you have any feedback of students?
-     
- - intent : about demo class
-   examples:  |
-     - do you have any live demo classes?
-     - is there any trial class ?
-
-- intent : time slot and mentor change
-   examples:  |
-     - how to change the time slot?
-     - how to change the mentor?
-     - can i choose the timing according to my ease?
-
-- intent : discounts
-   examples:  |
-     - is there any discount for longer period?
-     - what all discounts do you have?
-
-- intent : fees
-   examples:  |
-     - what is the course fee monthly?
-     - what is the course fee annually?
      
  - intent : Ask_workshop
       examples:  |
@@ -164,6 +125,28 @@ nlu:
         - What happen in whorkshop?
         - what is workshop?
         - Do we have to pay for the workshop?
+  
+ - intent : Value_add_course
+         examples:  |
+          -Is AI also included in the starter course plan?
+          -Is AI also included in the Yearly course plan?
+          -Is web development also included in the starter course plan?
+          -Is web development also included in the Yearly course plan?
+          -Is AI also included in the basic course plan?
+          -Is web development also included in the basic course plan?
+
+  - intent : Exam_Facility 
+         examples:  |
+          -Do you have any exam facility after one topic finishes? 
+          -Do you have any assignment facilities after one topic finishes? 
+          -Do you have any special exam facility after completing course ?
+          -Do you have any surprise tests in the classroom?
+          
+  - intent : Branch_info
+         examples:  | 
+          - Do you have any branch in Kolkata ? 
+          -Do you have any branch in Delhi ?
+          -Do you have any branch in Bangalore ?
     
  - intent: Ask_tie_ups
       examples:  |
@@ -245,19 +228,19 @@ nlu:
     examples:  | 
        - How many teachers are assigned for one batch?
        
-intent: help_my_kid
+- intent: help_my_kid
    examples:  |
       - How can I help my kid with coding?
-intent:  Yes_
+- intent:  Yes_
    examples:  |
       - Will all online class recording will be provided to us?
       - Will all online classes be recorded?
       - can I see the recording after classes
       
-intent: opt_offline
+- intent: opt_offline
     examples: |
        - can I opt for offline sessions
-intent: where_certificate
+- intent: where_certificate
    examples:  |
        - where will i recieve my course certifacte after completion?
        
@@ -273,7 +256,6 @@ intent: where_certificate
       - How will coding help my kids in school?
       - what are the benefits of learning programming? 
     
-   
 
 - intent: contact
    examples: |
@@ -308,19 +290,138 @@ intent: where_certificate
     
 - intent: about_app
    examples: |
-      - how to use the app
-
-
-
+      - how to use the app?
 
 - intent: academic_progress
    examples: |
       - how do you measure academic progress, and what are the strengths and weaknesses of that approach? 
    
-
-
 - intent: student_struggling
    examples: |
       - My child is struggling, what should I do now?
       - How can I help my child if I don't know anything about coding?
+
+- intent: ask_report
+  examples: |
+    - Do you give progress report for grade 1-4 students enrolled in intermediate course?
+    - Do you give progress report for grade 1-4 students enrolled in professional course?
+    - Do you provide progress report for grade 5-7 students enrolled in basic course?
+    - Do you provide progress report for grade 5-7 students enrolled in intermediate course?
+    - Do you provide progress report for grade 5-7 students enrolled in professional course?
+    - Do you provide progress report for grade 7-10 students enrolled in basic course?
+    - Do you provide progress report for grade 7-10 students enrolled in intermediate course?
+    - Do you provide progress report for grade 7-10 students enrolled in professional course?
+    - Do you provide progress report for grade 10+ students enrolled in basic course? 
+    - Do you provide progress report for grade 10+ students enrolled in intermediate course?
+    - Do you provide progress report for grade 10+ students enrolled in professional course?
+    - Do you provide weekly progress report of students in 1:1 live classes?
+    - Do you provide weekly progress report of students for basic course of live classes?
+    - Do you provide weekly progress report of students for starter course of live classes?
+    - Do you provide weekly progress report of students for yearly course of live classes?
+    - Do you provide weekly progress report for grade 1-4 students enrolled in basic course?
+    - Do you provide weekly progress report for grade 1-4 students enrolled in intermediate course?
+    - Do you provide weekly progress report for grade 1-4 students enrolled in professional course?
+    - Do you provide weekly progress report for grade 5-7 students enrolled in basic course?
+    - Do you provide weekly progress report for grade 5-7 students enrolled in intermediate course?
+    - Do you provide weekly progress report for grade 5-7 students enrolled in professional course?
+    - Do you provide weekly progress report for grade 7-10 students enrolled in basic course?
+    - Do you provide weekly progress report for grade 7-10 students enrolled in intermediate course?
+    - Do you provide weekly progress report for grade 7-10 students enrolled in professional course?
+    - Do you provide weekly progress report for grade 10+ students enrolled in basic course?
+    - Do you provide weekly progress report for grade 10+ students enrolled in intermediate course?
+    - Do you provide weekly progress report for grade 10+ students enrolled in professional course?
+    - Do you provide monthly progress report of students in 1:1 live classes?
+    - Do you provide monthly progress report of students for basic course of live classes?
+    - Do you provide monthly progress report of students for starter course of live classes?
+    - Do you provide monthly progress report of students for yearly course of live classes?
+    - Do you provide monthly progress report for grade 1-4 students enrolled in basic course?
+    - Do you provide monthly progress report for grade 1-4 students enrolled in intermediate course?
+    - Do you provide monthly progress report for grade 1-4 students enrolled in professional course?
+    - Do you provide monthly progress report for grade 5-7 students enrolled in basic course?
+    - Do you provide monthly progress report for grade 5-7 students enrolled in intermediate course?
+    - Do you provide monthly progress report for grade 5-7 students enrolled in professional course?
+    - Do you provide monthly progress report for grade 7-10 students enrolled in basic course?
+    - Do you provide monthly progress report for grade 7-10 students enrolled in intermediate course?
+    - Do you provide monthly progress report for grade 7-10 students enrolled in professional course?
+    - Do you provide monthly progress report for grade 10+ students enrolled in basic course?
+    - Do you provide monthly progress report for grade 10+ students enrolled in intermediate course?
+    - Do you provide monthly progress report for grade 10+ students enrolled in professional course?
+    - Do you provide yearly progress report after completion of professional course?
+    - Do you provide yearly progress report after completion of professional course for 1-4 grade students?
+    - Do you provide yearly progress report after completion of professional course for 5-7 grade students?
+    - Do you provide yearly progress report after completion of professional course for 7-10 grade students?
+    - Do you provide yearly progress report after completion of professional course for 10+ grade students?
+
+- intent: ask_course_query
+  examples: |
+    - Is Game app development included in starter course for grade 1-4?
+    - Is Game app development included in intermediate course for grade 1-4?
+    - Is Game app development included in professional course for grade 1-4?
+
+- intent: ask_remove_course
+  examples: |
+    - Can I remove Game app development from the course?
+    - Can I remove Game app development from starter course for grade 1-4?
+    - Can I remove Game app development from intermediate course for grade 1-4?
+    - Can I remove Game app development from professional course for grade 1-4?
+    - Can I remove Game app development from the course and get a concession?
+    - Can I remove Game app development from starter course for grade 1-4 and get discount?
+    - Can I remove Game app development from intermediate course for grade 1-4 and get discount?
+    - Can I remove Game app development from professional course for grade 1-4 and get discount?       
+       
+- intent : Can_I
+    examples: |
+        - Is Web development included in starter course for grade 8-10?
+        - Is Web development included in intermediate course for grade 8-10?
+        - Is Web development included in professional course for grade 8-10?
+        - Can I exclude Web development from starter course for grade 8-10?
+        - Can I exclude Web development from intermediate course for grade 8-10?
+        - Can I exclude Web development from professional course for grade 8-10?
+        - Can I exclude Web development from starter course for grade 8-10 and get a concession?
+        - Can I exclude Web development from intermediate course for grade 8-10 and get a concession?
+        - Can I exclude Web development from professional course for grade 8-10 and get a concession?
+        - Is Web development included in starter course for grade 10+?
+        - Is Web development included in intermediate course for grade 10+?
+        - Is Web development included in professional course for grade 10+?
+        - Can I exclude Web development from starter course for grade 10+?
+        - Can I exclude Web development from intermediate course for grade 10+?
+        - Can I exclude Web development from professional course for grade 10+?
+        - Can I exclude Web development from starter course for grade 10+ and get a concession?
+        - Can I exclude Web development from intermediate course for grade 10+ and get a concession?
+        - Can I exclude Web development from professional course for grade 10+ and get a concession?
+        - Is Mobile app development included in starter course for grade 1-4?
+        - Is Mobile app development included in intermediate course for grade 1-4?
+        - Is Mobile app development included in professional course for grade 1-4?
+        - Can I exclude Mobile app development from the course?
+        - Can I exclude Mobile app development from starter course for grade 1-4?
+        - Can I exclude Mobile app development from intermediate course for grade 1-4?
+        - Can I exclude Mobile app development from professional course for grade 1-4?
+        - Can I exclude Mobile app development from the course and get a concession?
+        - Can I exclude Mobile app development from starter course for grade 1-4 and get a concession?
+        - Can I exclude Mobile app development from intermediate course for grade 1-4 and get a concession?
+        - Can I exclude Mobile app development from professional course for grade 1-4 and get a concession?
+        - Is Mobile app development included in starter course for grade 5-7?
+        - Is Mobile app development included in intermediate course for grade 5-7?
+        - Is Mobile app development included in professional course for grade 5-7?
+        - Can I exclude Mobile app development from starter course for grade 5-7?
+        - Can I exclude Mobile app development from intermediate course for grade 5-7?
+        - Can I exclude Mobile app development from professional course for grade 5-7?
+        - Can I exclude Mobile app development from starter course for grade 5-7 and get a concession?
+        - Can I exclude Mobile app development from intermediate course for grade 5-7 and get a concession?
+        - Can I exclude Mobile app development from professional course for grade 5-7 and get a concession?
+        - Is Mobile app development included in starter course for grade 8-10?
+        - Is Mobile app development included in intermediate course for grade 8-10?
+        - Is Mobile app development included in professional course for grade 8-10?
+        - Can I remove Mobile app development from starter course for grade 8-10?
+        - Can I remove Mobile app development from intermediate course for grade 8-10?
+        - Can I remove Mobile app development from professional course for grade 8-10?
+        - Can I remove Mobile app development from starter course for grade 8-10 and get discount?
+        - Can I remove Mobile app development from intermediate course for grade 8-10 and get discount?
+        - Can I remove Mobile app development from professional course for grade 8-10 and get discount?
+        - Is Mobile app development included in starter course for grade 10+?
+        - Is Mobile app development included in intermediate course for grade 10+?
+        - Is Mobile app development included in professional course for grade 10+?
+        - Can I remove Mobile app development from starter course for grade 10+?
+
+
 
