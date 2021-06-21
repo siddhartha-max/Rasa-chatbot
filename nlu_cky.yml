@@ -107,3 +107,43 @@ nlu:
      - where nlp is used?
      - tell me about nlp in detail?
      - can we use nlp in real life?
+  
+ - intent : welcome_queries
+   examples:  |
+     - We want to visit your institution
+     - Do you have any branch in Kolkata ? 
+     - Do you have any branch in Delhi ?
+     - Do you have any branch in Bangalore ?
+     - Can I get any promo code for discount of course?
+     - Do you have an EMI option for paying for the course free?
+     - How much amount pay in the monthly EMI ?
+     - Do you have an EMI option for paying for an 8-10 year old course free?
+
+ - intent : ratings and reviews
+   examples:  |
+     - what is your rating ?
+     - what makes you different from others?
+     - what are reviews of students ?
+     - do you have any feedback of students?
+     
+ - intent : about demo class
+   examples:  |
+     - do you have any live demo classes?
+     - is there any trial class ?
+
+- intent : time slot and mentor change
+   examples:  |
+     - how to change the time slot?
+     - how to change the mentor?
+     - can i choose the timing according to my ease?
+
+
+- intent : discounts
+   examples:  |
+     - is there any discount for longer period?
+     - what all discounts do you have?
+
+- intent : fees
+   examples:  |
+     - what is the course fee monthly?
+     - what is the course fee annually?
