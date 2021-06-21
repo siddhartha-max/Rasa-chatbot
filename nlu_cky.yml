@@ -118,10 +118,16 @@ nlu:
         - what is workshop?
         - Do we have to pay for the workshop?
         
-    - intent: Ask_tie_ups
+ - intent: Ask_tie_ups
       examples:  |
         - Any tie-ups?
         - With how many companies do you have tie ups?
         - Had tie-up benefitted Codekaro yaro?
         
-      
+  
+  - intent : collaboration
+      examples: |
+        - Do you have any collaboration with schools?
+        - Did any school used your courses to teach their students?
+        - How collaboration has helped the organisation?
+        - How many schools have collaborated with organisation?  
