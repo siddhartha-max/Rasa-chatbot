@@ -131,3 +131,11 @@ nlu:
         - Did any school used your courses to teach their students?
         - How collaboration has helped the organisation?
         - How many schools have collaborated with organisation?  
+        
+   - intent: carrer
+       examples:  |
+         - How can I contact HR?
+         - I want to forward my resume?
+         - I want to teach in CodeKaro Yaaro.
+         - How can I join as a faculty?
+         - What is the process to join the organisation?
