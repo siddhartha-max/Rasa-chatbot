@@ -9,6 +9,51 @@ intents:
   - mood_unhappy
   - bot_challenge
   - Can_I
+  - no_basic_classes
+  - why_cky
+  - expirience 
+  - time_webd_expert
+  - monthly_fees
+  - scratch_age
+  - programming
+  - opensource
+  - super_session
+  - fun_projects
+  - ds_roadmap
+  - duration_trial
+  - duration_proffesional
+  - batch_size
+  - duration_starter
+  - duration_basic
+  - super_yearly
+  - no_weekly_classes
+  - no_weekly_starter
+  - duration_intermediate
+  - correct_age
+  - bug
+  - classes_yearly
+  - cancelation
+  - html_duration
+  - duration_learn
+  - duration_class
+  - advance_include
+  - teacher_accuracy
+  - annual_fees
+  - platform
+  - 5th_grader
+  - api
+  - ai
+  - monthly_fees
+  - salary_fullstack
+  - salary_ml
+  - salary_ai
+  - course_list
+  - ai_course
+  - Ask_duration
+  - Ask_demo_class
+  - Ask_co-curricular
+  - Ask_guide_helpline
+  - Ask_block_based_coding
 
 responses:
   utter_greet:
@@ -120,6 +165,155 @@ utter_Can_I:
   utter_student_struggling:
   - text: "Do engage with our codekaroyaro classes they will easily understand coding and they wont struggle anymore"
   
+  utter_no_basic_classes:
+  - text: 8 classes available in Basic course plan
+  utter_why_cky:
+  - text:  Code Karo Yaaro has a objective towards kid development by teaching them programming languages and opening a new world of opportunities.
+  utter_expirience:
+  - text:  Have an experience of 5 - 10 years
+  utter_time_webd_expert:
+  - text:  It depends on your hard work, daily practices.
+  utter_monthly_fees:
+  - text:  Its a 1000/-Rupees .
+  utter_scratch_age:
+  - text:  preffered for kids of grade 1 and so on.
+  utter_programming:
+  - text: programming is the process of telling a computer to do certain things by giving it instructions. These instructions are called programs.
+  utter_opensource:
+  - text: software for which the original source code is made freely available
+  utter_super_session:
+  - text: there are 3 super sessions
+  utter_fun_projects:
+  - text:  We have fun based projects as well as academic course also.
+  utter_ds_roadmap:
+  - text:  We have professional course. In that we provide 3 super sessions per week. In that you will get insight of various programming languages.
+  utter_duration_trial:
+  - text: 1 week
+  utter_duration_proffesional:
+  - text: 1 Year
+  utter_batch_size:
+  - text: 25-30 students in a batch
+  utter_duration_starter:
+  - text: 3 Months
+  utter_duration_basic:
+  - text: 3 months
+  utter_super_yearly:
+  - text: 3 super sessions per week
+  utter_no_weekly_classes:
+  - text: 3 super sessions per week
+  utter_no_weekly_starter:
+  - text: 48 classes available in Starter course plan
+  utter_duration_intermediate:
+  - text: 6 months
+  utter_correct_age:
+  - text: 7 years of age.
+  utter_bug:
+  - text: A bug is an error or a fault in computer program. Learn more details from our website https://www.codekaroyaaro.com/
+  utter_classes_yearly:
+  - text: 96 classes available in Starter course plan
+  utter_cancelation:
+  - text: A student/parent may apply for a refund within a period of 15 (fifteen) days after purchasing of the course
+  utter_html_duration:
+  - text: according to the course you select your time duration will vary
+  utter_duration_class:
+  - text: According to the courses duration may vary
+  utter_advance_include:
+  - text: Advanced pack is for 1 Year (3 Super Sessions Per Week), Introduction to Programming Languages, Game App + Mobile App + Website
+  utter_teacher_accuracy:
+  - text: All mentors are well experienced and qualified in their respective field.
+  utter_annual_fees:
+  - text: Annual packages courses are for students in 10+ grades worth 12000/- Rupees
+  utter_platform:
+  - text: Any online metting platform
+  utter_5th_grader:
+  - text: Any type of intrested domain is encouraged .
+  utter_api:
+  - text: API stands for Application Programming Interface. In basic terms, APIs are a set of functions and procedures
+  utter_ai:
+  - text: Artificial intelligence (AI) is intelligence demonstrated by machines, unlike the natural intelligence displayed by humans and animals.Artificial Intelligence can handle large quantities of data and processes it   quicker than human minds. This makes it perfect for research where the sources contain high data volumes.
+  utter_salary_fullstack:
+  - text: Average salary is around Rs 427,293
+  utter_salary_ml:
+  - text: Average salary is around Rs 500,000
+  utter_salary_ai:
+  - text: Average salary is around Rs 698,413
+  utter_course_list:
+  - text: Basic Corse, Starter Course, Yearly Plan
+  utter_ai_course:
+  - text: Basic Knowledge of AI will be provided in the sessions
+  utter_Ask_duration:
+  - text: "Duration"
+  utter_Ask_demo_class:
+  - text: "Demo class"
+  utter_Ask_co-curricular:
+  - text: "Co-Curricular"
+  utter_Ask_guide_helpline:
+  - text: "Helpline"
+  utter_Ask_block_based_coding:
+  - text: "Block based coding"
+  utter_goodbye:
+  - text: "Bye Bye"
+  utter_iamabot:
+  - text: "yeah na yeah"
+  utter_about_cky:
+  - text: "Code Karo Yaaro, An online coding school for kids from 6 years to 15 years old."
+  - text: "In 2020 "
+  - text: "Manish Motghare"
+
+  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
+
+
+
+  
+  
+actions:
+- utter_no_basic_classes
+- utter_why_cky
+- utter_expirience 
+- utter_time_webd_expert
+- utter_monthly_fees
+- utter_scratch_age
+- utter_programming
+- utter_opensource
+- utter_super_session
+- utter_fun_projects
+- utter_ds_roadmap
+- utter_duration_trial
+- utter_duration_proffesional
+- utter_batch_size
+- utter_duration_starter
+- utter_duration_basic
+- utter_super_yearly
+- utter_no_weekly_classes
+- utter_no_weekly_starter
+- utter_duration_intermediate
+- utter_correct_age
+- utter_bug
+- utter_classes_yearly
+- utter_cancelation
+- utter_html_duration
+- utter_duration_learn
+- utter_duration_class
+- utter_advance_include
+- utter_teacher_accuracy
+- utter_annual_fees
+- utter_platform
+- utter_5th_grader
+- utter_api
+- utter_ai
+- utter_salary_fullstack
+- utter_salary_ml
+- utter_salary_ai
+- utter_course_list
+- utter_ai_course
+- utter_Ask_duration
+- utter_Ask_demo_class
+- utter_Ask_co-curricular
+- utter_Ask_guide_helpline
+- utter_Ask_block_based_coding
+- utter_about_cky
+
