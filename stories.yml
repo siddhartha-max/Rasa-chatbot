@@ -34,47 +34,47 @@ stories:
   - intent: Can_I
   - action: utter_Can_I
   
- - story: Cky
+ - story: report
   steps:
   - intent: ask_report
   - action: utter_ask_report
 
-- story: Cky_2
+- story: course_query
   steps:
   - intent: ask_course_query
   - action: utter_ask_course_query
 
-- story: Cky_3
+- story: remove_course
   steps:
   - intent: ask_remove_course
   - action: utter_ask_remove_course
   
-- story: cky1 
+- story: cky1_course_related 
   steps:
   - intent: Course_related
   - action: "CKY provides you with variety of courses which you change according to the interest of kids".
 
-- story: cky2 
+- story: cky2_upgrade
   steps:
   - intent: Upgrade
   - action: "Yes,CKY provides you with variety of courses which you change according to the interest of kids".
 
-- story: cky3
+- story: cky3_contact_visit
   steps:
   - intent: Contact_visit
   - action: "Visit https://www.codekaroyaaro.com/ or call us at +91 8010996763".
 
-- story: cky4
+- story: cky4_python_easy
   steps:
   - intent: Python_Easy
   - action: "Python is considered one of the easiest language to learn".
 
-- story: cky5
+- story: cky5_python
   steps:
   - intent: About_Python
   - action: "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance".
 
-- story: cky6
+- story: cky6_interest
   steps:
   - intent: Interest
   - action: "It depends on the interest of an individual".
