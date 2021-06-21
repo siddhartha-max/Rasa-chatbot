@@ -188,4 +188,32 @@ nlu:
           -  Is python programming taught in Yearly course?
 
 
+- intent: scope_high
+    examples:  |
+      - What is the need for game app development?
+      - What is the need for mobile app development?
+      - What is the need for Artificial Intelligence?
+      
+- intent: per_batch_teacher
+    examples:  | 
+       - How many teachers are assigned for one batch?
+       
+intent: help_my_kid
+   examples:  |
+      - How can I help my kid with coding?
+intent:  Yes_
+   examples:  |
+      - Will all online class recording will be provided to us?
+      - Will all online classes be recorded?
+      - can I see the recording after classes
+      
+intent: opt_offline
+    examples: |
+       - can I opt for offline sessions
+intent: where_certificate
+   examples:  |
+       - where will i recieve my course certifacte after completion?
+intent: 
+
+
 
