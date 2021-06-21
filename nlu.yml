@@ -198,11 +198,7 @@ example:  |
      
    
 
-    - intent: Ask_tie_ups
-      examples:  |
-        - Any tie-ups?
-        - With how many companies do you have tie ups?
-        - Had tie-up benefitted Codekaro yaro?
+  
 
     - intent : collaboration
       examples: |
