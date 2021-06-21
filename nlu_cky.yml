@@ -93,49 +93,180 @@ nlu:
 
 - intent: abstract_type
   examples: |
-    -Can my kid get a chance in NASA?
-    -Can my kid get a chance in ISRO?
-    -Can my kid get a chance in Google or Microsoft?
-    -Can my kid get a chance in Google for paid internship?
-    -Can my kid get a chance in Microsoft for paid internship?
+  -Can my kid get a chance in NASA?
+  -Can my kid get a chance in ISRO?
+  -Can my kid get a chance in Google or Microsoft?
+  -Can my kid get a chance in Google for paid internship?
+  -Can my kid get a chance in Microsoft for paid internship?
   
- - intent : Ask_nlp
-   examples:  |
-     - Is there a course available on NLP ? 
-     - what is nlp?
-     - full form of nlp?
-     - where nlp is used?
-     - tell me about nlp in detail?
-     - can we use nlp in real life?
-     
- - intent : Ask_workshop
-      examples:  |
-        - what about workshop?
-        - Do you conduct workshop?
-        - Workshop
-        - Are workshop useful?
-        - What happen in whorkshop?
-        - what is workshop?
-        - Do we have to pay for the workshop?
-        
- - intent: Ask_tie_ups
-      examples:  |
-        - Any tie-ups?
-        - With how many companies do you have tie ups?
-        - Had tie-up benefitted Codekaro yaro?
-        
+  -intent: Coding_Future
+  -Examples:
+  -How can coding help my daughter for future jobs?
+  -How can coding help my son for future jobs?
   
-  - intent : collaboration
-      examples: |
-        - Do you have any collaboration with schools?
-        - Did any school used your courses to teach their students?
-        - How collaboration has helped the organisation?
-        - How many schools have collaborated with organisation?  
-        
-   - intent: carrer
-       examples:  |
-         - How can I contact HR?
-         - I want to forward my resume?
-         - I want to teach in CodeKaro Yaaro.
-         - How can I join as a faculty?
-         - What is the process to join the organisation?
+  -intent: Python_Scope
+  -examples:
+  -What is scope of python?
+
+ -intent: Course_Duration
+ -examples:
+ -how much time does it take for someone to become an expert in Machine Learning? 
+ -how much time does it take for someone to become an expert in Mobile App development ? 
+ -how much time does it take for someone to become an expert in artificial intelligence ? 
+ -how much time does it take for someone to become an expert in Game Development ? 
+
+ -intent: Course_Fee
+ -examples:
+ -what is the price of the overall course ?
+ 
+ -intent: Batch_Size
+ -examples:
+ -How many students are allowed in one batch?
+
+-intent: Course_Info
+-eamples:
+-What course options do you have for older/younger children?
+
+-intent: About_Python
+-examples:
+-why should my child learn python compared to any other language
+
+-intent: Basic_Course_Content
+-examples:
+-What is given in Basic course?
+-What is given in Starter course?
+
+-intent: About_Intermediate_and_Advance_Course
+-examples:
+-what is differece between advance  and intermediate pack
+
+-intent: About_Intermediate_and_Professional_Course
+-examples:
+-What's the difference between Intermediate and Professional course?
+
+-intent: Course-Package
+-examples: 
+-what are you going to teach in scratch programming for Grade 1-4  in starter package? 
+-What does intermediate pack for 8th class include?
+-What does intermediate pack for 9th class include?
+-What does intermediate pack for 10th class include?
+
+
+-intents: Live_Session
+-examples:
+-What are the live interactive sessions?
+
+-intents: Course_Transfer
+-examples:
+-is it okay if my child want to switch courses in between
+
+-intents: Study_Materials
+-examples:
+-Do you  recommend any books for python coding ?
+-Do you  recommend any books for an 8-10 year old kid coding ?
+
+-intents: Choosing_Programming_Language
+-examples: My kid has no coding experience, which course should i opt for?
+
+-intents: Programming_Language
+-examples: 
+-What programming languages would be taught?
+
+-intents: Use_of_c++_and_HTML
+-examples:
+-what are the difference between C++ and html?
+
+-intents: About_HTML
+-examples:
+-What is HTML?
+-how is html useful?
+
+-intents: HTML_Scope
+-examples:
+-what is the future scope of HTML? 
+
+-intents: After_Scratch_Programme
+-examples:
+-My child already know scratch. What do I do?
+
+-intents: Greet
+-examples:
+-Hi
+-Hello
+
+-intents: choosing_Programming_Language
+-examples:
+-My son is in 10th standard which programming language is best for him? 
+-my son is in 12th standard, which programming language is the best option for him?  
+-My son is in 9th standard which programming language is best for him? 
+-My son is in 8th standard which programming language is best for him? 
+-My kid is in 10th standard, which programming language would help him in his further studies? 
+-
+-intents: Benefits_c++_Programming
+-examples:
+-what are the benefits of learning c++ programming? 
+
+intents: Scratch_Info
+-examples:
+-What grade is scratch for?
+
+-intents: Scratch_Programming
+-examples:
+-How do my kid learn Scratch programming?
+
+-intents: Free_Course
+-examples:
+-If it is a paid course, does it have a free trial or money back guarantee?
+
+-intents: About_Certification
+-examples:
+-Will my child get a certificate?
+
+-intents: About_Scholarship
+-examples:
+-Do you have a scholarship test?
+
+-intents: About_Refund
+-examples:
+-If I opt out of a course in the middle of the course due to some reason, do I get a refund?
+
+-intents: About_course_enrollment
+-examples:
+-Where do I enroll in courses?
+
+-intents: About_Batch
+-examples:
+-can i choose the timing according to my ease
+-how to change the time slot
+-how to change the mentor
+-After enrollment how should i attend classes?
+
+-intents: About_Course
+-examples:
+-What is the cost of the course?
+
+-intents: About_Java_Program
+-examples:
+-what are the benefits of learning java programming? 
+
+-intents: About_coding_Benefit
+-examples:
+-Do these Coding skills help the students for higher study?
+
+-intents: Apply_For_Coding
+-examples:
+-How can my child apply this coding skill in real life? 
+
+-intents: Coding_Interest
+-examples:
+-my child has no interest in coding. How can I engage and encourage him? 
+
+
+
+
+-
+
+
+
+
+  
