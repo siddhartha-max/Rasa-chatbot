@@ -197,15 +197,6 @@ example:  |
 
      
    
-
-  
-
-    - intent : collaboration
-      examples: |
-      - Do you have any collaboration with schools?
-      - Did any school used your courses to teach their students?
-      - How collaboration has helped the organisation?
-      - How many schools have collaborated with organisation?
       
      - intent: carrer
        examples:  |
