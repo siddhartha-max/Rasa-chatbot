@@ -60,14 +60,6 @@ intents:
   - collaboration
   - carrer
   - contact_us
-  - scope_high
-  -  per_batch_teacher
-  -  help_my_kid
-  -  opt_offline
-  -  where_certificate
-  -  Yes_
-  -  word_coding
-  -  value_added_course
   - upgrade_course
   - About_phone_and_laptop
   - About_assignment
@@ -83,8 +75,13 @@ intents:
   - About_internet
   - About_basic_course
   -  About_phone_and_laptop
-  - Ask_nlp
-
+  - welcome_queries
+  - ratings and reviews
+  - about demo class
+  - time slot and mentor change
+  - discounts
+  - fees
+  
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -293,11 +290,19 @@ responses:
   utter_basic_course:
   - text: Yes,  mobile app development there in the basic course plan.
   
- 
-  
-  
- 
-
+  utter_welcome_queries:
+  - text: Yes,CodeKaroYaaro warmly welcomes you. please visit our website to check the courses or contact us on Phone : +91 8010996763.
+  utter_ratings_and_reviews:
+  - text: We are able to secure a perfect 5 star accross various platforms
+  utter_about_demo_class:
+  - text: Yes, we do provide a demo classes.
+  utter_time_slot_and_mentor_change:
+  - text: For changing of Batch Timing or Teacher you need to contact your dedicated Academic Mentor.
+  utter_discounts:
+  - text: contact no. +91 8010996763 for more information.
+  utter_fees:
+  - text:  Anual packages courses are for students in 10+ grades worth 12000/- Rupees
+  - text: monthly 1000/- rupees
 
 
 
@@ -349,14 +354,9 @@ actions:
 - utter_Ask_guide_helpline
 - utter_Ask_block_based_coding
 - utter_about_cky
--utter_workshop
-- utter_tie_up
-- utter_collaboration
-- utter_carrer
-- utter_scope_high
-- utter_per_batch_teacher
-- utter_help_my_kid
-- utter_opt_offline
-- utter_where_certificate
-- utter_yes
-
+- utter_welcome_queries
+- utter_ratings_and_reviews
+- utter_about_demo_class
+- utter_time_slot_and_mentor_change
+- utter_discounts
+- utter_fees
