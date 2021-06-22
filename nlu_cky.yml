@@ -941,6 +941,50 @@ intent:  Yes_
 - intent: About_basic_course
   example :
      - Is mobile app development there in the basic course plan?
+     
+- intent : about_join_live_classes
+  example :
+     - How to join Live classes for class 8?
+     - How to join Live classes for class 9?
+     - How to join Live classes for class 10?
+     - How to join Live classes for class 11?
+     - How to join Live classes for class 12?
+     - How to join Basic live course for class 8?
+     - How to join Starter live course for class 8?
+     - How to join Yearly live course for class 8?
+     - How to join Basic live course for class 9?
+     - How to join Starter live course for class 9?
+     - How to join Yearly live course for class 9?
+     - How to join Basic live course for class 10?
+     - How to join Starter live course for class 10?
+     - How to join Yearly live course for class 10?
+     - How to join Basic live course for class 11?
+     - How to join Starter live course for class 11?
+     - How to join Yearly live course for class 11?
+     - How to join Basic live course for class 12?
+     - How to join Starter live course for class 12?
+     - How to join Yearly live course for class 12?
+
+
+- intent : Ask_subscription_expired
+  examples :
+     - My Codekaro yaaro 1st class subscription expired please restart it
+     - My Codekaro yaaro 2nd class subscription expired please restart it
+     - My Codekaro yaaro 3rd class subscription expired please restart it
+     - My Codekaro yaaro 4th class subscription expired please restart it
+     - My Codekaro yaaro 5th class subscription expired please restart it
+     - My Codekaro yaaro 6th class subscription expired please restart it
+     - My Codekaro yaaro 7th class subscription expired please restart it
+     
+- intent : Ask_logical_skills_development 
+  examples :
+     - What is dance with coding?
+     - What is artist lab?
+     - How will you build logic for my kid?
+
+
+     
+
    
 
     
