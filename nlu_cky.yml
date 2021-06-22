@@ -392,6 +392,33 @@ nlu:
           -  Is python programming taught in Basic course?
           -  Is python programming taught in Starter course?
           -  Is python programming taught in Yearly course?
+          - what is the number of mentor
+          - how to leave a particular course
+          - how to contact the mentor
+          - where to call for any helpline
+          - Need Help To Understand Complete Product Usage?
+          - is there any discount for longer period
+          - what all discounts do you have
+          - Are there any discounts on yearly plan?
+          - Are there any discounts on starter plan?
+          - Are there any discounts on basic plan?
+          - what is the number of your customer care executive? 
+          - I have already paid for the course but it's still not reflecting on my CYK account? 
+          - How much do my kid have to score in the scholarship test to get at least 90% scholarship? 
+          - If I buy professional package, do I get a discount? 
+          - I want to transfer my kid from Game development to Artificial Intelligence. Is this possible? 
+          - what will be the timings of class throughout the course? 
+          - how can I get in touch with the teacher who is expert in python?
+          - how can I get in touch with the teacher who is expert in HTML? 
+          - how can I get in touch with the teacher who is expert in scratch? 
+          - how can I get in touch with the teacher who is expert in java?
+          - how can I get in touch with the teacher who is expert in C ?
+          - how can I get in touch with the teacher who is expert in C++?
+          - how can I get in touch with the teacher who is expert in mobile app development? 
+          - how can I get in touch with the teacher who is expert in A.I? 
+          - how can I get in touch with the teacher who is expert in web development?
+          - how can I get in touch with the teacher who is expert in php? 
+          - How to change my teacher? 
 
 
 - intent: scope_high
@@ -435,33 +462,7 @@ intent: where_certificate
 
 - intent: contact
    examples: |
-      - what is the number of mentor
-      - how to leave a particular course
-      - how to contact the mentor
-      - where to call for any helpline
-      - Need Help To Understand Complete Product Usage?
-      - is there any discount for longer period
-      - what all discounts do you have
-      - Are there any discounts on yearly plan?
-      - Are there any discounts on starter plan?
-      - Are there any discounts on basic plan?
-      - what is the number of your customer care executive? 
-      - I have already paid for the course but it's still not reflecting on my CYK account? 
-      - How much do my kid have to score in the scholarship test to get at least 90% scholarship? 
-      - If I buy professional package, do I get a discount? 
-      - I want to transfer my kid from Game development to Artificial Intelligence. Is this possible? 
-      - what will be the timings of class throughout the course? 
-      - how can I get in touch with the teacher who is expert in python?
-      - how can I get in touch with the teacher who is expert in HTML? 
-      - how can I get in touch with the teacher who is expert in scratch? 
-      - how can I get in touch with the teacher who is expert in java?
-      - how can I get in touch with the teacher who is expert in C ?
-      - how can I get in touch with the teacher who is expert in C++?
-      - how can I get in touch with the teacher who is expert in mobile app development? 
-      - how can I get in touch with the teacher who is expert in A.I? 
-      - how can I get in touch with the teacher who is expert in web development?
-      - how can I get in touch with the teacher who is expert in php? 
-      - How to change my teacher? 
+     
     
     
 - intent: about_app
