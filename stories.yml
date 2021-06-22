@@ -390,4 +390,64 @@ steps:
 - intent: Yes_
 - action: utter_yes
 
+- story: about_assignment
+steps:
+- intent: About_assignment
+- action: utter_assignment
+
+- story: About_coding
+steps:
+- intent: About_coding
+- action: utter_coding
+
+- story: About_feedback
+steps:
+- intent: About_feedback
+- action: utter_feedback
+
+- story: About_trial_classes
+steps:
+- intent: About_trial_classes
+- action: utter_trial_classes
+
+- story:  About_blockchain
+steps:
+- intent:  About_blockchain
+- action: utter_blockchain
+
+- story: About_subscription
+steps:
+- intent: About_subscription
+- action: utter_subscription
+
+- story: About_intermediate_pack
+steps:
+- intent: About_intermediate_pack
+- action: utter_intermediate
+
+- story: About_professional_pack
+steps:
+- intent: About_professional_pack
+- action: utter_professional
+
+- story: About_starter_pack
+steps:
+- intent: About_starter_pack
+- action: utter_starter
+
+- story: About_interface
+steps:
+- intent: About_interface
+- action: utter_interface
+
+- story: About_internet
+steps:
+- intent: About_internet
+- action: utter_internet
+
+- story: About_basic_course
+steps:
+- intent: About_basic_course
+- action: utter_basic_course
+
 
