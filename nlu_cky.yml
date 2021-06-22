@@ -411,6 +411,7 @@ nlu:
           - how can I get in touch with the teacher who is expert in web development?
           - how can I get in touch with the teacher who is expert in php? 
           - How to change my teacher? 
+          - is there any criteria for enrolment?
 
 
 - intent: scope_high
