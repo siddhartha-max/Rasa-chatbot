@@ -83,6 +83,7 @@ intents:
   - About_internet
   - About_basic_course
   -  About_phone_and_laptop
+  - Ask_nlp
 
 responses:
   utter_greet:
@@ -254,8 +255,6 @@ responses:
   
   utter_yes:
   - text: yes,for sure.
-  
-  
   
   utter_assignment:
   - text: "Yes assignment will be assigned"
