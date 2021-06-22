@@ -257,15 +257,6 @@ nlu:
 -intents: Coding_Interest
  examples:  |
     - My child has no interest in coding. How can I engage and encourage him? 
-
- - intent : Ask_nlp
-   examples:  |
-     - Is there a course available on NLP ? 
-     - what is nlp?
-     - full form of nlp?
-     - where nlp is used?
-     - tell me about nlp in detail?
-     - can we use nlp in real life?
   
  - intent : welcome_queries
    examples:  |
@@ -413,7 +404,6 @@ nlu:
           - How to change my teacher? 
           - is there any criteria for enrolment?
 
-
 - intent: scope_high
     examples:  |
       - What is the need for game app development?
@@ -424,24 +414,38 @@ nlu:
     examples:  | 
        - How many teachers are assigned for one batch?
        
-intent: help_my_kid
+- intent: help_my_kid
    examples:  |
       - How can I help my kid with coding?
       
-intent: opt_offline
+- intent: opt_offline
     examples: |
        - can I opt for offline sessions
        
-intent: where_certificate
+- intent: where_certificate
    examples:  |
        - where will i recieve my course certifacte after completion?
        
-intent:  Yes_
+- intent:  Yes_
    examples:  |
       - Will all online class recording will be provided to us?
       - Will all online classes be recorded?
       - can I see the recording after classes
       - Can an 8-10 year old kid code like a professional?
+      - is python user friendly
+   
+- intent: word_coding
+    examples:  |
+      - How to grow a student's interest in word coding ?  
+      
+- intent: value_added_course
+    examples:  |
+       - Do you have any value added courses within the Coding course?
+       
+- intent: contact_instructor
+   examples:  |
+       - If my child has a technical issue or question, how does she contact your online instructors?
+       - Im stuck, can I skip a challenge?
   
 - intent: coding_importance
    examples: |
