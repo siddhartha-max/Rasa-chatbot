@@ -55,6 +55,11 @@ intents:
   - Ask_co-curricular
   - Ask_guide_helpline
   - Ask_block_based_coding
+  - Ask_workshop
+  - Ask_tie_ups
+  - collaboration
+  - carrer
+  - contact_us
 
 responses:
   utter_greet:
@@ -90,11 +95,6 @@ responses:
   - text: "Code Karo Yaaro, An online coding school for kids from 6 years to 15 years old."
   
   utter_refund_policy:
-  - text: "Contact us at +91 8010996763"
-  - text: "Contact us at +91 8010996763"
-  - text: "Contact us at +91 8010996763"
-  - text: "Contact us at +91 8010996763"
-  - text: "Contact us at +91 8010996763"
   - text: "Contact us at +91 8010996763"
 
   utter_linux:
@@ -153,8 +153,7 @@ utter_Can_I:
 
 
   utter_contact:
-  - text: "Contact  at. +91 8010996763 to know about this. "
-  - text: "contact no. +91 8010996763 for more information."
+  - text: "Contact  at. +91 8010996763 or https://www.codekaroyaaro.com/ to know about this. "
   
 
   utter_about_app:
@@ -261,8 +260,18 @@ utter_Can_I:
   - text: "In 2020 "
   - text: "Manish Motghare"
 
+  utter_workshop:
+  - text: We do not conduct workshops.
   
-
+  utter_tie_up:
+  - text: We do not have any tie-ups yet, we are looking forward to it.
+  
+  utter_collaboration:
+  - text: We do not have any collaboration with any school, we are looking forward  to it.
+  
+  utter_carrer:
+  - text: Follow us on LinkedIn where we regularly post about vacancy details.
+ 
 
 
 
