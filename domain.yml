@@ -82,8 +82,6 @@ intents:
   - discounts
   - fees
   
-  
-  
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -254,7 +252,6 @@ responses:
   
   utter_yes:
   - text: yes,for sure.
-  - text: yes,it is possible.
   
   utter_assignment:
   - text: "Yes assignment will be assigned"
