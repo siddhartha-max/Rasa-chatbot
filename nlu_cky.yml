@@ -130,6 +130,7 @@ nlu:
 -intent: About_Python
  examples:
    - why should my child learn python compared to any other language
+   
 
 -intent: Basic_Course_Content
  examples:
@@ -159,6 +160,7 @@ nlu:
 -intents: Course_Transfer
  examples:
   -is it okay if my child want to switch courses in between?
+  -I want my kid to transfer from mobile app development to A.I course, is this possible? 
 
 -intents: Study_Materials
  examples:
@@ -241,6 +243,7 @@ nlu:
 -intents: About_Course
  examples:
   - What is the cost of the course?
+  
 
 -intents: About_Java_Program
  examples:
@@ -337,6 +340,7 @@ nlu:
          - I want to teach in CodeKaro Yaaro.
          - How can I join as a faculty?
          - What is the process to join the organisation?
+         -Will this course help my Kid's career?
          
   - intent: contact_us
        examples:  | 
@@ -412,6 +416,13 @@ nlu:
           - how can I get in touch with the teacher who is expert in php? 
           - How to change my teacher? 
           - is there any criteria for enrolment?
+          -Is python programming there in starter course for grade 10+?
+          -Is python programming there in professional course for grade 10+?
+          -Is python programming there in professional course for grade 5-7?
+          -Is python programming there in professional course for grade 8-10?
+          -Is python programming there in starter course for grade 10+?
+          -can we change batch timings?
+           
 
 
 - intent: scope_high
@@ -442,6 +453,50 @@ intent:  Yes_
       - Will all online classes be recorded?
       - can I see the recording after classes
       - Can an 8-10 year old kid code like a professional?
+      -Does coding require math?
+      -Is game app development there in the basic course plan?
+      -Is game app development there in the starter course plan?
+      -Is my credit card information secure?
+      -Is your company "CKY" reputable? 
+      -Can the kid manage with the 10th class studies and coding side by side?
+      -Can the kid manage with the 9th class studies and coding side by side?
+      -Can the kid manage with the 8th class studies and coding side by side?
+      -Is mobile app development there in the starter course plan?
+      -Is mobile app development there in the starter course plan?
+      -Are course fees that are suitable for middle class people?
+      -Do you have any advanced courses in coding?
+      -Will it run on my computer? 
+      -Does learning to program help with a child's other learning? 
+      -will programming really hold my child's attention? 
+      -Will it run on my computer? 
+      -Does the kid needs to do some extra practice except the classes?
+      -Do you have any testimonials for 8-10 year old kids?
+      -Is python programming there in intermediate course for grade 5-7?
+      -Is python programming there in intermediate course for grade 5-7?
+      -Is python programming there in intermediate course for grade 10+?
+      -Is python programming there in starter course for grade 5-7?
+      -Is python programming there in starter course for grade 8-10?
+      -Is python programming there in intermediate course for grade 1-4?
+      -Is python programming there in professional course for grade 1-4?
+      -what if my get kid gets sick in the middle of the course, would you provide back up class to him ? 
+      -Which coding language is suitable for 8-10 kids ?
+      -Is it possible to understand my 8-10 year old kid coding?
+      -Is there a free trial or money back guarantee? 
+      -Are parents allowed during the online classes?
+      -will mentor help my child with his doubts in python?
+      -Does scratch course covers all topics theoretically and practically? 
+      -Does python course covers all topics theoretically and practically? 
+      -do you have any live demo classes?
+      -Do you have license  curriculum to school? 
+      -Can teachers handle 8-10 year old kids?
+      -Is a given certificate approved by any big IT company?
+      -Do you have any corporate partnership?
+      -Is an 8-10 year old student a separate batch or not?
+      -Are there any coding contests conducted?
+      -Do you give study material?
+      
+     
+
   
 - intent: coding_importance
    examples: |
