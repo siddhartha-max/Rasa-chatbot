@@ -350,4 +350,14 @@ actions:
 - utter_Ask_guide_helpline
 - utter_Ask_block_based_coding
 - utter_about_cky
+-utter_workshop
+- utter_tie_up
+- utter_collaboration
+- utter_carrer
+- utter_scope_high
+- utter_per_batch_teacher
+- utter_help_my_kid
+- utter_opt_offline
+- utter_where_certificate
+- utter_yes
 
