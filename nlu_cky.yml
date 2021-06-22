@@ -278,19 +278,19 @@ nlu:
      - How much amount pay in the monthly EMI ?
      - Do you have an EMI option for paying for an 8-10 year old course free?
 
- - intent : ratings and reviews
+ - intent : ratings_and_reviews
    examples:  |
      - what is your rating ?
      - what makes you different from others?
      - what are reviews of students ?
      - do you have any feedback of students?
      
- - intent : about demo class
+ - intent : about_demo_class
    examples:  |
      - do you have any live demo classes?
      - is there any trial class ?
 
-- intent : time slot and mentor change
+- intent : time_slot_and_mentor_change
    examples:  |
      - how to change the time slot?
      - how to change the mentor?
