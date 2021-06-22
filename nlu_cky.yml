@@ -126,10 +126,18 @@ nlu:
 -intent: Course_Info
  examples:
    - What course options do you have for older/younger children?
+   - are there one to one classes?
 
 -intent: About_Python
  examples:
-   - why should my child learn python compared to any other language
+   - why should my child learn python compared to any other language?
+   - Will learniing python help my child to excel?
+   - is python still popular?
+   - Will learniing python help my child to excel?
+   - How will python course make help my Kid to get a career?
+   - is camera require for python course?
+   - is speaker required for the class?
+   - is microphone requred for this course?
 
 -intent: Basic_Course_Content
  examples:
@@ -181,6 +189,7 @@ nlu:
  examples:
    - What is HTML?
    - How is html useful?
+   - do you teach html?
 
 -intents: HTML_Scope
  examples:
@@ -206,6 +215,8 @@ nlu:
 -intents: Scratch_Info
  examples:
   - What grade is scratch for?
+  - Is scratch easy to learn?
+  - Is Scratch safe for Kids?
 
 -intents: Scratch_Programming
  examples:
@@ -218,6 +229,7 @@ nlu:
 -intents: About_Certification
  examples:
    - Will my child get a certificate?
+   - Will I get certificate for completing a course?
 
 -intents: About_Scholarship
  examples:
@@ -432,8 +444,11 @@ intent:  Yes_
       - Will all online class recording will be provided to us?
       - Will all online classes be recorded?
       - can I see the recording after classes
-      
-intent: opt_offline
+      - Do we get feedback on what our children are working on?
+      - Are coding courses continuing during lockdown?
+      - Will the online coding classes continue after lockdown?
+    
+- intent: opt_offline
     examples: |
        - can I opt for offline sessions
        
@@ -783,7 +798,7 @@ intent: where_certificate
     - If it is a paid course, does it have a free trial or money back guarantee
     - Are there any free courses available on your platform
     - Is there a free trial or money back guarantee
-   
+    - Can I get a demo class?
     
 - intent: Ask_co-curricular
   examples: |
@@ -800,6 +815,7 @@ intent: where_certificate
     - How to grow a student's interest in word coding 
     - What is dance with coding.
     - Coding is hard or easy for an 8-10 year old kid
+    - Do you provide Extra curricular activities classes with coding?
 
 
 - intent: Ask_guide_helpline
@@ -837,4 +853,86 @@ intent: where_certificate
     - What is code karo Yaro?
     - In which year code karo yaaro was founded ?
     - who is the founder of code karo yaaro ?
+ 
+- intent: Upgrade_course
+  examples:
+    - I want to transfer my kid from Game development to Artificial Intelligence. Is this possible ?
+    - I want to transfer my kid from Java programming to html. Is this possible ?
+    - I want to add Web development course to my pack. Is this possible ?
+    - I want to transfer my kid from python programming to scratch. Is this possible ?
+    - I want to add programming language Java to my pack. How is this possible ?
+    - I want to upgrade my starter pack to intermediate pack. Is this possible ?
+    - I want to upgrade my intermediate pack to professional pack. Is this possible ?
+    - I want to enroll for starter pack from intermediate pack. Is this possible ?
+    - I want to enroll for intermediate pack from professional pack. Is this possible ? 
+    - I want to add Java and python programming languages to my pack. Is this possible ?
+    
+- intent: About_phone_and_laptop
+  example:
+    - Can I attend class on android phones?
+    - Can I attend class on  iphones?
+    - I don't  have a laptop. Can I join in classes with my phone?
+    - can I use pc or laptop for classes?
+    - can I use mobile for classes?
+  
+    
+- intent: About_assignment
+  example :
+    - is there any assignment provided?
+    
+- intent: About_coding
+  example :
+    - Can my kid learn coding on his/her own?
+   
+- intent: About_feedback
+  example :
+     - do you have any feedback of students?
+     
+- intent: About_trial_classes
+  example :
+     - is there any trial class ?
+     
+- intent: About_blockchain
+  example :
+     - Is there a course related to blockchain on your platform? 
+     
+- intent: About_subscription
+  example :
+     - I have two children. Do I have to buy two subscriptions?
+     
+- intent: About_intermediate_pack
+  example :
+     - what is intermediate pack for grade 1-4?
+     - what is intermediate pack for grade 5-7?
+     - what is intermediate pack for grade 8-10?
+     - what is intermediate pack for grade 10+?
+     
+- intent: About_professional_pack
+  example :
+     - what is professional pack for grade 1-4?
+     - what is professional pack for grade 5-7?
+     - what is professional pack for grade 8-10?
+     - what is professional pack for grade 10+?
+     
+- intent: About_starter_pack
+  example :
+     - what is starter pack for grade 1-4?
+     - what is starter pack for grade 5-7?
+     - what is starter pack for grade 8-10?
+     - what is starter pack for grade 10+?
+     
+- intent: About_interface
+  example :
+     - is the interface user friendly?
+     - is the interface good enough for beginners?
+     
+ - intent: About_internet
+   example :
+      - Do I need internet connection as well?
+      
+- intent: About_basic_course
+  example :
+     - Is mobile app development there in the basic course plan?
+   
+
     
