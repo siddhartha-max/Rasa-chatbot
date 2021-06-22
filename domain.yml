@@ -60,6 +60,21 @@ intents:
   - collaboration
   - carrer
   - contact_us
+  - upgrade_course
+  - About_phone_and_laptop
+  - About_assignment
+  - About_coding
+  - About_feedback
+  - About_trial_classes
+  - About_blockchain
+  - About_subscription
+  - About_intermediate_pack
+  - About_professional_pack
+  - About_starter_pack
+  - About_interface
+  - About_internet
+  - About_basic_course
+  -  About_phone_and_laptop
 
 responses:
   utter_greet:
@@ -111,7 +126,7 @@ responses:
   - text: "DevOps Engineer,Java Developer,Software Engineer,Systems Administrator,Systems Engineer,Senior Software Engineer,Python Developer,Network Engineer."
   - text: "Linux Engineers in America make an average salary of $84,725 per year or $41 per hour."
 
-  utter_about_phone:
+  utter_about_phone_and_laptop:
   - text: "Yes"
   - text: "contact us at : +91 8010996763"
   - text: "Normal data packs are more than sufficient for the online classes."
@@ -122,6 +137,10 @@ responses:
   - text: "We will provide backup class."
   - text: "4G enabled mobile phone is compulsory"
   - text: "3Mbps"
+  - text: "Yes any device with internet connection will work properly."
+  - text: "Yes any device with internet connection will work properly."
+  - text: "Yes student can join classes anywhere on their mobiles"
+  - text: "Yes student can join classes anywhere on their mobiles or with laptops."
 
   utter_about_tranfer:
   - text: "Yes, contact us for more information."
@@ -131,6 +150,7 @@ utter_about_tranfer:
 
 utter_Can_I:
   - text: "Yes, Contact us at +91 8010996763 for more information"
+  
   
   utter_coding_importance:
   - text: "Coding teaches  logical reasoning, critical thinking, and most importantly helps us to solve problems by creating software that makes life easier for people."
@@ -278,6 +298,46 @@ utter_Can_I:
   
   utter_yes:
   - text: yes,for sure.
+  - text: yes,it is possible.
+  
+  utter_assignment:
+  - text: "Yes assignment will be assigned"
+  
+  utter_coding:
+  - text: yes but with the help of a mentor/counsellor it can be more easy to understand and mentor will be there to clear any doubts.
+  
+  utter_feedback:
+  - text: Yes we do have feedbacks from our children you can check them on our offical website.
+  
+  utter_trial_classes:
+  - text: Yes we do provide 1 trial class.
+  
+  utter_blockchain:
+  - text: Yes we have java, python that is supported language for blockchain.
+  
+  utter_subscription:
+  - text: Yes we provide per head subsciption.
+  
+  utter_intermediate_pack:
+  - text: Yes we provides intermediate pack @ Rs 8000/- and for more details pls refer our website.
+  
+  utter_professional_pack:
+  - text: Yes we provides professional pack @ Rs 12000/- and for more details pls refer our website.
+  
+  utter_starter_pack:
+  - text: Yes we provides starter pack @ Rs 4000/- and for more details pls refer our website.
+  
+  utter_interface:
+  - text: Yes we use scratch programming language for children in 1-4 grade and python for rest of them. Both programming languages are quite user friendly. 
+  - text: Yes we use scratch programming language and artistic lab for small kids. 
+  
+  utter_internet:
+  - text: Yes you will be needing internet connection for attending the classes.
+  
+  utter_basic_course:
+  - text: Yes,  mobile app development there in the basic course plan.
+  
+ 
   
   
  
