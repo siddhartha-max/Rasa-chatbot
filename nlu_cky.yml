@@ -260,15 +260,6 @@ nlu:
 -intents: Coding_Interest
  examples:  |
     - My child has no interest in coding. How can I engage and encourage him? 
-
- - intent : Ask_nlp
-   examples:  |
-     - Is there a course available on NLP ? 
-     - what is nlp?
-     - full form of nlp?
-     - where nlp is used?
-     - tell me about nlp in detail?
-     - can we use nlp in real life?
   
  - intent : welcome_queries
    examples:  |
@@ -281,19 +272,19 @@ nlu:
      - How much amount pay in the monthly EMI ?
      - Do you have an EMI option for paying for an 8-10 year old course free?
 
- - intent : ratings and reviews
+ - intent : ratings_and_reviews
    examples:  |
      - what is your rating ?
      - what makes you different from others?
      - what are reviews of students ?
      - do you have any feedback of students?
      
- - intent : about demo class
+ - intent : about_demo_class
    examples:  |
      - do you have any live demo classes?
      - is there any trial class ?
 
-- intent : time slot and mentor change
+- intent : time_slot_and_mentor_change
    examples:  |
      - how to change the time slot?
      - how to change the mentor?
@@ -424,7 +415,6 @@ nlu:
           -can we change batch timings?
            
 
-
 - intent: scope_high
     examples:  |
       - What is the need for game app development?
@@ -435,19 +425,19 @@ nlu:
     examples:  | 
        - How many teachers are assigned for one batch?
        
-intent: help_my_kid
+- intent: help_my_kid
    examples:  |
       - How can I help my kid with coding?
       
-intent: opt_offline
+- intent: opt_offline
     examples: |
        - can I opt for offline sessions
        
-intent: where_certificate
+- intent: where_certificate
    examples:  |
        - where will i recieve my course certifacte after completion?
        
-intent:  Yes_
+- intent:  Yes_
    examples:  |
       - Will all online class recording will be provided to us?
       - Will all online classes be recorded?
@@ -494,10 +484,21 @@ intent:  Yes_
       -Is an 8-10 year old student a separate batch or not?
       -Are there any coding contests conducted?
       -Do you give study material?
+      - is python user friendly
+   
+- intent: word_coding
+    examples:  |
+      - How to grow a student's interest in word coding ?  
       
-     
-
-  
+- intent: value_added_course
+    examples:  |
+       - Do you have any value added courses within the Coding course?
+       
+- intent: contact_instructor
+   examples:  |
+       - If my child has a technical issue or question, how does she contact your online instructors?
+       - Im stuck, can I skip a challenge?
+       
 - intent: coding_importance
    examples: |
       - why is coding important? 
