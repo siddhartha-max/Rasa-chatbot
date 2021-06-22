@@ -60,6 +60,14 @@ intents:
   - collaboration
   - carrer
   - contact_us
+  - scope_high
+  -  per_batch_teacher
+  -  help_my_kid
+  -  opt_offline
+  -  where_certificate
+  -  Yes_
+  -  word_coding
+  -  value_added_course
   - upgrade_course
   - About_phone_and_laptop
   - About_assignment
@@ -246,7 +254,8 @@ responses:
   
   utter_yes:
   - text: yes,for sure.
-  - text: yes,it is possible.
+  
+  
   
   utter_assignment:
   - text: "Yes assignment will be assigned"
