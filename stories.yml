@@ -91,7 +91,7 @@ story: cky7
 
 - story: contact
   steps:
-  - intent: contact
+  - intent: contact_us
   - action: utter_contact
 
 - story: App
@@ -149,6 +149,7 @@ stories:
   steps:
   - intent: no_basic_classes
   - action: utter_no_basic_classes
+  
 - story: why_cky
   steps:
   - intent: why_cky
@@ -343,4 +344,23 @@ stories:
   steps:
   - intent: ai_course
   - action: utter_ai_course
-
+  
+- story: workshop_organisation
+  steps: 
+  - intent: Ask_workshop
+  - action: utter_workshop
+  
+- story: tie_ups_org
+  steps: 
+  - intent: Ask_tie_ups
+  - action: utter_tie_up
+  
+- story: collaboration_org
+  steps:
+  - intent: collaboration
+  - action: utter_collaboration
+  
+- story: carrer_org
+  steps:
+  - intent: carrer
+  - utter_carrer
