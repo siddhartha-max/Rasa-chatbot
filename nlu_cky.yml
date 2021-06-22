@@ -889,4 +889,124 @@ intent:  Yes_
     - What is code karo Yaro?
     - In which year code karo yaaro was founded ?
     - who is the founder of code karo yaaro ?
+ 
+- intent: Upgrade_course
+  examples:
+    - I want to transfer my kid from Game development to Artificial Intelligence. Is this possible ?
+    - I want to transfer my kid from Java programming to html. Is this possible ?
+    - I want to add Web development course to my pack. Is this possible ?
+    - I want to transfer my kid from python programming to scratch. Is this possible ?
+    - I want to add programming language Java to my pack. How is this possible ?
+    - I want to upgrade my starter pack to intermediate pack. Is this possible ?
+    - I want to upgrade my intermediate pack to professional pack. Is this possible ?
+    - I want to enroll for starter pack from intermediate pack. Is this possible ?
+    - I want to enroll for intermediate pack from professional pack. Is this possible ? 
+    - I want to add Java and python programming languages to my pack. Is this possible ?
+    
+- intent: About_phone_and_laptop
+  example:
+    - Can I attend class on android phones?
+    - Can I attend class on  iphones?
+    - I don't  have a laptop. Can I join in classes with my phone?
+    - can I use pc or laptop for classes?
+    - can I use mobile for classes?
+  
+    
+- intent: About_assignment
+  example :
+    - is there any assignment provided?
+    
+- intent: About_coding
+  examples :
+    - Can my kid learn coding on his/her own?
+   
+- intent: About_feedback
+  example :
+     - do you have any feedback of students?
+     
+- intent: About_trial_classes
+  example :
+     - is there any trial class ?
+     
+- intent: About_blockchain
+  example :
+     - Is there a course related to blockchain on your platform? 
+     
+- intent: About_subscription
+  example :
+     - I have two children. Do I have to buy two subscriptions?
+     
+- intent: About_intermediate_pack
+  example :
+     - what is intermediate pack for grade 1-4?
+     - what is intermediate pack for grade 5-7?
+     - what is intermediate pack for grade 8-10?
+     - what is intermediate pack for grade 10+?
+     
+- intent: About_professional_pack
+  example :
+     - what is professional pack for grade 1-4?
+     - what is professional pack for grade 5-7?
+     - what is professional pack for grade 8-10?
+     - what is professional pack for grade 10+?
+     
+- intent: About_starter_pack
+  example :
+     - what is starter pack for grade 1-4?
+     - what is starter pack for grade 5-7?
+     - what is starter pack for grade 8-10?
+     - what is starter pack for grade 10+?
+     
+- intent: About_interface
+  example :
+     - is the interface user friendly?
+     - is the interface good enough for beginners?
+     
+ - intent: About_internet
+   example :
+      - Do I need internet connection as well?
+      
+- intent: About_basic_course
+  example :
+     - Is mobile app development there in the basic course plan?
+     
+- intent : about_join_live_classes
+  example :
+     - How to join Live classes for class 8?
+     - How to join Live classes for class 9?
+     - How to join Live classes for class 10?
+     - How to join Live classes for class 11?
+     - How to join Live classes for class 12?
+     - How to join Basic live course for class 8?
+     - How to join Starter live course for class 8?
+     - How to join Yearly live course for class 8?
+     - How to join Basic live course for class 9?
+     - How to join Starter live course for class 9?
+     - How to join Yearly live course for class 9?
+     - How to join Basic live course for class 10?
+     - How to join Starter live course for class 10?
+     - How to join Yearly live course for class 10?
+     - How to join Basic live course for class 11?
+     - How to join Starter live course for class 11?
+     - How to join Yearly live course for class 11?
+     - How to join Basic live course for class 12?
+     - How to join Starter live course for class 12?
+     - How to join Yearly live course for class 12?
+
+
+- intent : Ask_subscription_expired
+  examples :
+     - My Codekaro yaaro 1st class subscription expired please restart it
+     - My Codekaro yaaro 2nd class subscription expired please restart it
+     - My Codekaro yaaro 3rd class subscription expired please restart it
+     - My Codekaro yaaro 4th class subscription expired please restart it
+     - My Codekaro yaaro 5th class subscription expired please restart it
+     - My Codekaro yaaro 6th class subscription expired please restart it
+     - My Codekaro yaaro 7th class subscription expired please restart it
+     
+- intent : Ask_logical_skills_development 
+  examples :
+     - What is dance with coding?
+     - What is artist lab?
+     - How will you build logic for my kid?
     
