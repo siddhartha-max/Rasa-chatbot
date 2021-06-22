@@ -427,11 +427,6 @@ nlu:
 intent: help_my_kid
    examples:  |
       - How can I help my kid with coding?
-intent:  Yes_
-   examples:  |
-      - Will all online class recording will be provided to us?
-      - Will all online classes be recorded?
-      - can I see the recording after classes
       
 intent: opt_offline
     examples: |
@@ -440,6 +435,13 @@ intent: opt_offline
 intent: where_certificate
    examples:  |
        - where will i recieve my course certifacte after completion?
+       
+intent:  Yes_
+   examples:  |
+      - Will all online class recording will be provided to us?
+      - Will all online classes be recorded?
+      - can I see the recording after classes
+      - Can an 8-10 year old kid code like a professional?
   
 - intent: coding_importance
    examples: |
