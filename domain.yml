@@ -125,19 +125,7 @@ responses:
 
   utter_about_tranfer:
   - text: "Yes, contact us for more information."
-  - text: "Yes, contact us for more information."
-  - text: "Yes, contact us for more information."
-  - text: "Yes, contact us for more information."
-  - text: "Yes, contact us for more information."
-  - text: "Yes, contact us for more information."
-  - text: "Yes, contact us for more information."
-  - text: "Yes, contact us for more information."
-  - text: "Yes, contact us for more information."
-  - text: "Yes, contact us for more information."
-  - text: "Yes, contact us for more information."
-  - text: "Yes, contact us for more information."
-  - text: "Yes, contact us for more information."
-  - text: "Yes, contact us for more information."
+
 utter_about_tranfer:
 -text: "Yes, we can help your kid for achieve this gole.Please contact us for more information. "
 
@@ -166,7 +154,8 @@ utter_Can_I:
   - text: "Do engage with our codekaroyaro classes they will easily understand coding and they wont struggle anymore"
   
   utter_no_basic_classes:
-  - text: 8 classes available in Basic course plan
+  - text:" 8 classes available in Basic course plan."
+  
   utter_why_cky:
   - text:  Code Karo Yaaro has a objective towards kid development by teaching them programming languages and opening a new world of opportunities.
   utter_expirience:
@@ -270,7 +259,27 @@ utter_Can_I:
   - text: We do not have any collaboration with any school, we are looking forward  to it.
   
   utter_carrer:
-  - text: Follow us on LinkedIn where we regularly post about vacancy details.
+  - text: Follow us on LinkedIn, where we regularly post about vacancy details.
+  
+  utter_scope_high:
+  - text: Future scope is high.
+  
+  utter_per_batch_teacher:
+  - text: Per batch 1 teacher is alloted.
+  
+  utter_help_my_kid:
+  - text: Learn with your child.
+  
+  utter_opt_offline:
+  - text: Currently, we are conducting online sessions only.
+  
+  utter_where_certificate:
+  - text: Through online mode.
+  
+  utter_yes:
+  - text: yes,for sure.
+  
+  
  
 
 
