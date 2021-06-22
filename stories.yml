@@ -140,11 +140,6 @@ stories:
   - intent: about_cky
   - action: utter_about_cky
 
-- story: CKY
-  steps:
-  - intent: about_cky
-  - action: utter_about_cky
-
 - story: no_basic_classes
   steps:
   - intent: no_basic_classes
@@ -363,4 +358,36 @@ stories:
 - story: carrer_org
   steps:
   - intent: carrer
-  - utter_carrer
+  - action:  utter_carrer
+  
+- story: scope_is_high_org
+  steps:
+  - intent: scope_high
+  - action: utter_scope_high
+  
+-story: per_batch_teacher_org
+ steps:
+ - intent: per_batch_teacher
+ - action: utter_per_batch_teacher
+ 
+- story: help_my_kid_org
+steps:
+- intent: help_my_kid
+- action: utter_help_my_kid
+
+- story: opt_offline_org
+steps:
+- intent: opt_offline
+- action: utter_opt_offline
+
+- story: where_certificate_org
+steps:
+- intent: where_certificate
+- action: utter_where_certificate
+
+- story: Yes_org
+steps:
+- intent: Yes_
+- action: utter_yes
+
+
